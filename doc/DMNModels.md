@@ -26,13 +26,12 @@ Decision Logic | Decision Table - Structure: Input clauses, Output clauses, Rule
   
 
 ## Add a new DMN Model
-Once the DMN extension is enabled, a new area is visible on the left navigation pane, named “DMN Models”. To create a DMN Model from scratch, press the Add button, just like for any other collection item in the navigation pane: Entities, Rules, Decisions etc. 
+Once the DMN extension is enabled, a new component is visible on the left navigation pane of irAuthor, named “DMN Models”. To create a DMN Model from scratch, navigate to the DMN Models component and press the Add button (just as you would do in any other component of the navigation pane: Entities, Rules, Decisions, etc.). 
 
 ![InRule Add DMN Model Button](../images/InRuleDMN_AddModelButton.PNG) 
 
-The behaviour of the items in "DMN Models" is just as expected in irAuthor, in terms of adding a new item, renaming it or removing the item from the collection.
+Renaming and removing models in the "DMN Models" component also works in the same way as renaming and removing items in the other components of irAuthor
 
-When is a good moment to add a new model?
 
 ## Modify an existing DMN Model
 
