@@ -10,10 +10,10 @@ DMN as a practice, provides a formal approach to discover decisions, inventory e
 DMN is for everyone that must understand the automation that is exists (under management) and any backlog of automation waiting to be implemented by a team.  DMN models can be quickly understood at a high level without getting into the implementation details.  
 
 ### What can I do with this DMN capability?
-irAuthor users can create decision models based on the DMN 1.3 specification.  This means that all of the shapes within the specification can be used to create a model.  Moreover, the same capability allows for the importing and exporting of decision tables using the specificaiton.  Imported decision tables execute natively on the InRule Decision Platform with the same performance as other decision tables created by irAuthor.
+irAuthor users can create decision models based on the DMN 1.3 specification.  This means that all of the shapes within the specification can be used to create a model.  Moreover, the same capability allows for the importing and exporting of decision tables using the specification.  Imported decision tables execute natively on the InRule Decision Platform with the same performance as other decision tables created by irAuthor.
 
 ### What is InRule's level of participation in the DMN standard?
-InRule is an active member of [DecisionAutomation.org].  This consortium consists of working groups focused on adoption and sponsoring requirments for DMN.  You can read more about our charter and the [DMN On-ramp Group](https://www.decisionautomation.org/dmn-on-ramp-group) and follow our activities.
+InRule is an active member of [DecisionAutomation.org].  This consortium consists of working groups focused on adoption and sponsoring requierments for DMN.  You can read more about our charter and the [DMN On-ramp Group](https://www.decisionautomation.org/dmn-on-ramp-group) and follow our activities.
 
 ### Why is DMN released as an Extension?
 There is currently a lot of innovation taking place around the standard.  For this reason, we decided an extension would provide more rapid access to changes independent of our standard release cadences.  
