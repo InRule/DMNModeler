@@ -1,20 +1,20 @@
-# Public API for DMN Modeler Extension
+# DMN Public API 
 
-InRule DMN Extension has a public API available, consisting in a set of classes available to the developer to gain access to and work with the different parts of the DMN extension. The developer has the possibility to use these classes to:
+DMN Modeler includes a public API consisting of a set of classes that import/export DMN models and decision tables.  More specifically, a developer has the classes to do the following:
 -	Import and Export DMN Decision Table(s) to and from a Rule Application
 -	Import and Export DMN Model(s) to and from a Rule Application
 
 The Rule Application used in an import or export operation might be:
 - A Rule Application saved on the local file system
 - A reference to an object representing a Rule Application definition
-- A Rule Application from a Catalog
+- A Rule Application from irCatalog
 
 Prerequisites:
--	InRule irAuthor SDK (at the moment of writing this documentation version is at 5.7.2, but might increase as time passes)
--	if a reference to a Rule Application from irCatalog is used, version of the irCatalog should be the same as irAuthor version in which the Rule Application was defined
+-	InRule irAuthor SDK (5.7.2)
+-	if a reference to a Rule Application from irCatalog is used, the version of irCatalog should be the same as irAuthor.
 -	Assembly InRuleLabs.Authoring.Extensions.DMNAPI.dll
 
-Please find below the list of classes and their methods, available in the API, all available in the InRuleLabs.Authoring.Extensions.DMNAPI namespace.
+Below are the list of classes and methods available in the API using the InRuleLabs.Authoring.Extensions.DMNAPI namespace.
 
 ## DMNDecisionTableAPI class
 
