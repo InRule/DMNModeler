@@ -153,11 +153,11 @@ Here is a practical example of an online store that is in need of shopping cart 
 
 ![InRule DMN Step By Step Guide Step 1](../images/InRuleDMN_Model_Step1.PNG)
 
-Now let's document more this decision.  Let's take into consideration that some products might have a discount, or the customer might have a promo code on the order.  
+Now let's document more about this decision.  Let's take into consideration that some products might have a discount, or the customer might have a promo code on the order.  
 
 ![InRule DMN Step By Step Guide Step 2](../images/InRuleDMN_Model_Step2.PNG)
 
-As our guide above suggests, it's time to think if some decisions are public, and other private. Indeed, all the discounts and promotions calculation when determining the subtotal price is internal and we should separate that from the final price calculation. So a Decision Service can be added to our model:
+As our guide above suggests, it's time to consider which decisions might be public decision services and which are private.  Indeed, all the discounts and promotion calculations are likely internal and we should separate that from the final price calculation. So a Decision Service can be added to our model:
 
 ![InRule DMN Step By Step Guide Step 3](../images/InRuleDMN_Model_Step3.PNG)
 
