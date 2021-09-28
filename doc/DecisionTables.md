@@ -70,9 +70,9 @@ If the chosen file has a different extension than .dmn, an error dialog box is p
 
 ![InRule Invalid File on Import Decision Model](../images/InRuleDMN_InvalidFileForImport.PNG) 
 
-After the confirmation on the file to be imported, irAuthor will perform 2 operations:
+After the confirmation on the file to be imported, irAuthor will perform two operations:
 1. Import the Decision Table(s).
-1. For each column from the imported Decision Table(s), automatically create bound variables at decision level. So for example if the imported Decision Table has the temperature outside and chance of rain as input data, 2 variables will be defined at the decision level. The same goes for the actions of the Decision Table: one output variable for the decision is defined and bound to it.
+2. For each column from the imported Decision Table(s), automatically create bound variables at decision level. So for example if the imported Decision Table has the temperature outside and chance of rain as input data, two variables will be defined at the decision level. The same goes for the actions of the Decision Table: one output variable for the decision is defined and bound to it.
 
 This is a convention irAuthor is using to help users who are modelling requirements, to start importing decision tables without being tied to the schema.   
 
