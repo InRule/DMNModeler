@@ -20,9 +20,9 @@ Decision Requirements | DRG | Yes |
    | Artifacts: Text Annotation, Association, Group | Yes |
    | Dependencies between DRD elements: Information Requirement, Knowledge Requirement, Authority Requirement | Yes
 Decision Logic | Decision Table - Structure: Input clauses, Output clauses, Rules, Annotation clauses | Partial | Because InRule implements natively Decision Table, it does not support DMN visualization of it. InRule does not implement Annotation clauses for Decision Table.
-   | Decision Table - Hit Policy | Partial | [see more details here](../../doc/DecisionTables.md#hit-policy)
+   | Decision Table - Hit Policy | Partial | [see more details here](../doc/DecisionTables.md#hit-policy)
    | Decision Table - Orientation | Partial | InRule implements Horizontally orientation, with rules on rows.
-   | S-FEEL Data Types and Expressions | Partial | [see more details here](../../doc/DecisionTables.md#data-types-and-s-feel)
+   | S-FEEL Data Types and Expressions | Partial | [see more details here](../doc/DecisionTables.md#data-types-and-s-feel)
    | FEEL | None | 
  Visual Appearance | DMN Models: zoom in, zoom out | Yes |
    | Shapes: Decision, Business Knowledge Model, Input Data, Knowledge Source, Expanded and Collapsed Decision Service, Group, Text Annotation | Yes |
