@@ -149,11 +149,11 @@ There are some very good books on decision modeling from James Taylor and Jan Pu
 
 As you model grows, it will make sense that you will break out the work into different models.  As stated above, you can have as many models as you need in a rule application.  
 
-Here is a practical example of an online store that is in need of shopping cart automation. It's a simple calcation for a shopping cart total.  Let's start with a decision that does a common total: price per item * quantity:
+Here is a practical example of an online store that is in need of shopping cart automation. It's a simple calcation for a shopping cart total.  We also know that that the order total requires a line item calculation: price per item * quantity:
 
 ![InRule DMN Step By Step Guide Step 1](../images/InRuleDMN_Model_Step1.PNG)
 
-Now let's document more this decision, taking in consideration that some products might have a discount, or the customer might have some promo code on the order. We need to take that in consideration when calculating the total price. So the model can be enriched with these details.
+Now let's document more this decision.  Let's take into consideration that some products might have a discount, or the customer might have a promo code on the order.  
 
 ![InRule DMN Step By Step Guide Step 2](../images/InRuleDMN_Model_Step2.PNG)
 
