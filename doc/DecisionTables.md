@@ -10,11 +10,9 @@ In irAuthor, the components of a Decision Table are:
   * Decisions - the set of all possible values which, together, make the decision logic. Each decision row in the table represents a rule.
   * [Hit policy](DecisionTables.md#hit-policy) - governs if one or multiple rules may be validated by the matching algorithm, and in case multiple rules are allowed, in what order they are returned.
  
- _**Note**: DMN spec defines also as a component, the annotations for every rule of the Decision Table. irAuthor does not have this feature yet._
- 
  Having the example above, this is how a Decision Table would be defined in irAuthor.
 
-![InRule Sample Decision Table WhatToWear](../images/InRuleDMN_SampleDecisionTable_Components.PNG) 
+[InRule Sample Decision Table WhatToWear](../images/InRuleDMN_SampleDecisionTable_Components.PNG) 
 
 View the complete [.dmn file of "WhatToWear" Decision Table](../samples/InRuleDMN_SampleDecisionTable_WhatToWear.dmn). It can be opened in Notepad or any other tool which supports DMN to view the contents and our level of DMN conformity.
 
