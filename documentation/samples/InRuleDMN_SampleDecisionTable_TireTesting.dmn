@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:biodi="https://inrule.com/" id="definitions_1" exporter="InRule irAuthor®" exporterVersion="5.7.2.240" xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/">
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram id="DMNDiag_9951754" name="DMN Diagram">
+      <dmndi:DMNShape dmnElementRef="decisiontbl_99517541" isCollapsed="false">
+        <dc:Bounds x="160" y="300" width="180" height="80" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+  <decision name="TireTesting" id="decisiontbl_99517541">
+    <decisionTable hitPolicy="FIRST" preferredOrientation="Rule-as-Row">
+      <input id="input_1" label="TireSize">
+        <inputExpression id="inputexpr_99517541_1" typeRef="string" />
+      </input>
+      <input id="input_2" label="LoadIndex">
+        <inputExpression id="inputexpr_99517541_2" typeRef="string" />
+      </input>
+      <input id="input_3" label="SpeedIndex">
+        <inputExpression id="inputexpr_99517541_3" typeRef="string" />
+      </input>
+      <input id="input_4" label="TireType">
+        <inputExpression id="inputexpr_99517541_4" typeRef="string" />
+      </input>
+      <input id="input_5" label="Reinforced">
+        <inputExpression id="inputexpr_99517541_5" typeRef="string" />
+      </input>
+      <input id="input_6" label="TestName">
+        <inputExpression id="inputexpr_99517541_6" typeRef="string" />
+      </input>
+      <output id="output_99517541_1" name="SpeedInKmPerH" label="SpeedInKmPerH" typeRef="integer" />
+      <output id="output_99517541_2" name="TestDurationInMins" label="TestDurationInMins" typeRef="integer" />
+      <rule id="rule_99517541_1">
+        <description />
+        <inputEntry id="input_val_99517541_1_1">
+          <text>"175/65"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_1_2">
+          <text>"77"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_1_3">
+          <text>"U"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_1_4">
+          <text>"Summer"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_1_5">
+          <text>"true"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_1_6">
+          <text>"56KT101"</text>
+        </inputEntry>
+        <outputEntry id="output_val_99517541_1_1">
+          <text>200</text>
+        </outputEntry>
+        <outputEntry id="output_val_99517541_1_2">
+          <text>30</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule_99517541_2">
+        <description />
+        <inputEntry id="input_val_99517541_2_1">
+          <text>"175/65"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_2_2">
+          <text>"77"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_2_3">
+          <text>"U"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_2_4">
+          <text>"Winter"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_2_5">
+          <text>"false"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_2_6">
+          <text>"56KT101"</text>
+        </inputEntry>
+        <outputEntry id="output_val_99517541_2_1">
+          <text>200</text>
+        </outputEntry>
+        <outputEntry id="output_val_99517541_2_2">
+          <text>25</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule_99517541_3">
+        <description />
+        <inputEntry id="input_val_99517541_3_1">
+          <text>"185/65"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_3_2">
+          <text>"90"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_3_3">
+          <text>"V"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_3_4">
+          <text>"All seasons"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_3_5">
+          <text>"false"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_3_6">
+          <text>"9KL0200"</text>
+        </inputEntry>
+        <outputEntry id="output_val_99517541_3_1">
+          <text>210</text>
+        </outputEntry>
+        <outputEntry id="output_val_99517541_3_2">
+          <text>25</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule_99517541_4">
+        <description />
+        <inputEntry id="input_val_99517541_4_1">
+          <text>"190/60"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_4_2">
+          <text>"92"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_4_3">
+          <text>"W"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_4_4">
+          <text>"Summer"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_4_5">
+          <text>"false"</text>
+        </inputEntry>
+        <inputEntry id="input_val_99517541_4_6">
+          <text>"56KT101"</text>
+        </inputEntry>
+        <outputEntry id="output_val_99517541_4_1">
+          <text>220</text>
+        </outputEntry>
+        <outputEntry id="output_val_99517541_4_2">
+          <text>35</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>
