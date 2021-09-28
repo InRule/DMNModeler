@@ -12,7 +12,7 @@ In irAuthor, the components of a Decision Table are:
  
  Having the example above, this is how a Decision Table would be defined in irAuthor.
 
-[InRule Sample Decision Table WhatToWear](../images/InRuleDMN_SampleDecisionTable_Components.PNG) 
+![InRule Sample Decision Table WhatToWear](../images/InRuleDMN_SampleDecisionTable_Components.PNG) 
 
 View the complete [.dmn file of "WhatToWear" Decision Table](../samples/InRuleDMN_SampleDecisionTable_WhatToWear.dmn). It can be opened in Notepad or any other tool which supports DMN to view the contents and our level of DMN conformity.
 
