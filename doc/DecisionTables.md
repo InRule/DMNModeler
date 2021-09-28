@@ -1,4 +1,4 @@
-# When and how to define a Decision Table
+# Defining decision tables
 
 Decision Tables in DMN are the most powerful tool to define the detailed decision logic. Usually, to be able to take a decision, we have a set of values in input, and maybe those values can be spanned in ranges or a set of text values. For example, a simple decision everyone does on a daily basis is what to wear before leaving the house. In this case, the season might be relevant, the temperature outside, and maybe the weather predictions in the following hours. All these caractheristic may be modelled as input of a Decision Table. And because the decision is about what to wear, and maybe if the umbrella is needed, we can add those 2 outputs of the Decision Table. 
 
