@@ -1,6 +1,8 @@
 # ignore ALL .log files
 *.log
-*.DS_Store
+
+# ignore other
+.DS_Store
 
 # ignore ALL files in ANY directory named temp
 temp/
