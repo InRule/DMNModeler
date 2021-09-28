@@ -135,9 +135,8 @@ Association | ![InRule DMN Association Link](../images/InRuleDMN_Link_Associatio
 
 _**Note:**  There is no constraint on the number of shapes or links you can use in a decision requirement diagram; you can design the DRD using the needed shapes and the most adequate position for each one of them, but take in consideration that a functional DRD should have all the shapes connected._
 
-# Step by step guide on how to design a decision model
+# Step by step 
 
-[draft]
 Now that decision graph, decision diagram and shapes are covered, it's time to start designing a decision model. 
 There is no perfect answer to the question: "What is the first shape to add when modelling my requirements?", "When is the right moment to start a decision model?", so these are just some ideas that might work for your scenario.
 
