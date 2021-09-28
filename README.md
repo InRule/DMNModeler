@@ -29,6 +29,9 @@ DMN requires a valid irAuthor license to run.
 * IrAuthor System Requirements
 * Microsoft WebView2 Runtime Fixed Version, version 91.0.864.64 will be installed as part of the intallation process of this extension, as silent install.  
 
+### Installation
+Installation instructions are located [here](/install/readme.md).
+
 ### Documentation and Samples:
 
 - [Support for DMN Models](/doc/DMNModels.md)
