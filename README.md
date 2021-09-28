@@ -1,6 +1,6 @@
 # Introduction
 
-![InRule DMN Step By Step Guide Step 2](/documentation/images/InRuleDMN_Model_Step2.PNG)
+![InRule DMN Step By Step Guide Step 2](/images/InRuleDMN_Model_Step2.PNG)
 
 Welcome to the DMNModeler repository on GitHub.  This repository contains everything you need to model decisions using Decision Model and Notation (DMN) 1.3 (as established by OMG) in conjuction with InRule irAuthor.
 
@@ -30,7 +30,7 @@ DMN requires a valid irAuthor license to run.
 * Microsoft WebView2 Runtime Fixed Version, version 91.0.864.64 will be installed as part of the intallation process of this extension, as silent install.  
 
 ### Installation
-1. Download the installation package from [here](../../../raw/main/documentation/install/InstallationFiles%20v1.0.5%20for%20irAuthor%205.7.2.zip)
+1. Download the installation package from [here](../../../raw/main/install/InstallationFiles%20v1.0.5%20for%20irAuthor%205.7.2.zip)
 1. Extract the archive into a folder on your PC where irAuthor is installed.
 1. Download and save in the extracted archive the WebView2 Runtime installer from the online link https://developer.microsoft.com/en-us/microsoft-edge/webview2/ -> on the bottom of the page -> Fixed Version -> Version 91.0.864.64 , Select Architecture x64 for 64bit operating system. The name of the installer is MicrosoftEdgeWebView2RuntimeInstallerX64.exe
 Ensure there are no instances of irAuthor currently open.
@@ -42,21 +42,21 @@ This can be helpful if you are running many versions of irAuthor in Side-by-Side
 
 ### Documentation and Samples:
 
-- [Support for DMN Models](/documentation/doc/DMNModels.md)
-   * [What is DMN and where Decision Model fits into irAuthor?](/documentation/doc/DMNModels.md)
-   * [Import/Export of models](/documentation/doc/DMNModels.md#importexport-of-models)
-   * [Explore shapes and connectors](/documentation/doc/DMNModels.md#explore-shapes-and-connectors)
-   * [Step by step guide on how to design a decision model](/documentation/doc/DMNModels.md#step-by-step-guide-on-how-to-design-a-decision-model)
-- [Support for Decision Tables](/documentation/doc/DecisionTables.md)
-   * [When and how to define a Decision Table](/documentation/doc/DecisionTables.md#when-and-how-to-define-a-decision-tables)
-   * [Hit policy](/documentation/doc/DecisionTables.md#hit-policy)
-   * [Data types and S-FEEL](/documentation/doc/DecisionTables.md#data-types-and-s-feel)
-   * [Import/Export](/documentation/doc/DecisionTables.md#importexport)
+- [Support for DMN Models](/doc/DMNModels.md)
+   * [What is DMN and where Decision Model fits into irAuthor?](/doc/DMNModels.md)
+   * [Import/Export of models](/doc/DMNModels.md#importexport-of-models)
+   * [Explore shapes and connectors](/doc/DMNModels.md#explore-shapes-and-connectors)
+   * [Step by step guide on how to design a decision model](/doc/DMNModels.md#step-by-step-guide-on-how-to-design-a-decision-model)
+- [Support for Decision Tables](/doc/DecisionTables.md)
+   * [When and how to define a Decision Table](/doc/DecisionTables.md#when-and-how-to-define-a-decision-tables)
+   * [Hit policy](/doc/DecisionTables.md#hit-policy)
+   * [Data types and S-FEEL](/doc/DecisionTables.md#data-types-and-s-feel)
+   * [Import/Export](/doc/DecisionTables.md#importexport)
 - [Using import/export of Decision Tables with CI/CD (example export/import on check-in events)]()
-- [Keyboard Shortcuts](/documentation/doc/KeyboardShortcuts.md)
-- [Samples](/documentation/samples/)
+- [Keyboard Shortcuts](/doc/KeyboardShortcuts.md)
+- [Samples](/samples/)
     * Progressive samples of DMN models
     * Industry models (lending kit, etc)
     * Decision Tables
-      * [Basic sample "WhatToWear"](/documentation/samples/InRuleDMN_SampleDecisionTable_WhatToWear.dmn)
-      * [Automotive sample "TireTesting"](/documentation/samples/InRuleDMN_SampleDecisionTable_TireTesting.dmn)
+      * [Basic sample "WhatToWear"](/samples/InRuleDMN_SampleDecisionTable_WhatToWear.dmn)
+      * [Automotive sample "TireTesting"](/samples/InRuleDMN_SampleDecisionTable_TireTesting.dmn)
