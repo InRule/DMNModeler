@@ -51,7 +51,7 @@ S-FEEL Data Type | InRule Data Type | Comments | Import/Export supported pattern
 ---------------|--------------------|------------------------------|---------------------------------------------------------------------------------------------------------
 Number | Integer, Decimal | Holds a numeric value; are allowed comparisons and expressions like is in an interval.  | 10, > 10, >= 10, < 10, <= 10, [2..10], (2..10], [2..10), ]2..10[
 Boolean | Boolean | Holds a boolean value. | true, false
-String | Text | Any sequence of chars; are allowed expressions like string is eual to, among, or not equal to. | "Winter", not("Summer"), Not Fall
+String | Text | Any sequence of chars; are allowed expressions like string is equal to, among, or not equal to. | "Winter", not("Summer"), Not Fall
 Date | Date | Holds 3 infos: year, month and day. | date("2021-08-19")
 Time | - | On the import, value is converted to Text data type and imported as a string. | any pattern, including time("09:10:11.123+01:00")
 Date and Time | DateTime | Holds a date together with time expressed in hours, minutes and seconds. | date and time("2021-08-19T09:10:11")
@@ -66,7 +66,7 @@ Decision Tables can be imported from an external .dmn file. There is no restrict
 
 ![InRule Import Decision Table](../images/InRuleDMN_Import_DecisionTable.PNG) 
 
-If the chosen file has a different extension than .dmn, an error dialog box is presented and, similarly to the behaviour when importing a DMN Model, and no import is performed.
+If the chosen file has a different extension than .dmn, an error dialog box is presented and, similarly to the behavior when importing a DMN Model, and no import is performed.
 
 ![InRule Invalid File on Import Decision Model](../images/InRuleDMN_InvalidFileForImport.PNG) 
 
