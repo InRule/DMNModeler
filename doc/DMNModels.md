@@ -1,5 +1,4 @@
-# What is DMN and where Decision Model fits into irAuthor?
-
+# Where do Decision Models fit into irAuthor?
 With DMN Modeler extension, it is possible to create a Decision Requirements Graph (DRG) from scratch. One way to think of a DRG is the available canvas for designing the model, with the help of the palette. As the first shape is being dragged from the palette on the canvas, the Decision Requirements Diagram (DRD) is created and enriched step by step with decisions and any other elements that are being added to the model. While there can be a lot of complexity around filtered views of a DRG by using multiple DRDs according to DMN spec, our implementation supports a single DRD per DRG. This means that every time a new item is added in the "DMN Models" pane, the rule application receives a new graph and one associated diagram per item.
 
 Compatibility summary between DMN 1.3 spec and InRule DMN extension.
@@ -26,13 +25,12 @@ Decision Logic | Decision Table - Structure: Input clauses, Output clauses, Rule
   
 
 ## Add a new DMN Model
-Once the DMN extension is enabled, a new area is visible on the left navigation pane, named “DMN Models”. To create a DMN Model from scratch, press the Add button, just like for any other collection item in the navigation pane: Entities, Rules, Decisions etc. 
+Once the DMN extension is enabled, a new component is visible on the left navigation pane of irAuthor, named “DMN Models”. To create a DMN Model from scratch, navigate to the DMN Models component and press the Add button (just as you would do in any other component of the navigation pane: Entities, Rules, Decisions, etc.). 
 
 ![InRule Add DMN Model Button](../images/InRuleDMN_AddModelButton.PNG) 
 
-The behaviour of the items in "DMN Models" is just as expected in irAuthor, in terms of adding a new item, renaming it or removing the item from the collection.
+Renaming and removing models in the "DMN Models" component also works in the same way as renaming and removing items in the other components of irAuthor
 
-When is a good moment to add a new model?
 
 ## Modify an existing DMN Model
 
