@@ -137,7 +137,7 @@ _**Note:**  There is no constraint on the number of shapes or links you can use 
 
 # Basic tep by step 
 
-There are some very good books on decision modeling from James Taylor and Jan Purchase that cover indepth practice ![Real World Decision Modeling with DMN] (https://www.amazon.com/Real-World-Decision-Modeling-James-Taylor/dp/0929652592/ref=sr_1_3?dchild=1&keywords=James+Taylor+dmn&qid=1632853023&sr=8-3).
+There are some very good books on decision modeling from James Taylor and Jan Purchase that cover indepth practice [Real World Decision Modeling with DMN] (https://www.amazon.com/Real-World-Decision-Modeling-James-Taylor/dp/0929652592/ref=sr_1_3?dchild=1&keywords=James+Taylor+dmn&qid=1632853023&sr=8-3).
 
 Here is a step by step guide to begin designing a decision model:
 1. Start brainstorming on what problem needs to be solved.
