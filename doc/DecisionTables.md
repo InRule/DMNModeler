@@ -1,6 +1,6 @@
 # Defining decision tables
 
-Decision tables are the most prefered metaphor for authoring rules by business users.  They are eficient and understandable by just about everyone without much training.  Moreover, many business analysts represent requiremnets in tablular format for the same reasons.  For this reason, we believe rule authors are most likely to share decision tables in addition to their models between teams and organizations and DMN makes this exceedingly straight forward.
+Decision tables are the most prefered metaphor for authoring rules by business users.  They are eficient and understandable by just about everyone without much training.  Moreover, many business analysts represent requiremnets in tablular format.  For this reason, we believe rule authors are most likely to share decision tables in addition to their models between teams and organizations using DMN.
 
 To get started, we imagined a simple decision table example--what to wear before leaving the house. In this case, the season might be relevant, the temperature outside, and maybe the weather predictions in the following hours. All these caractheristic may be modelled as input of a Decision Table. And because the decision is about what to wear, and maybe if the umbrella is needed, we can add those 2 outputs of the Decision Table. 
 
