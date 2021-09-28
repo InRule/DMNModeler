@@ -44,7 +44,6 @@ Installation instructions are located [here](/install/readme.md).
    * [Hit policy](/doc/DecisionTables.md#hit-policy)
    * [Data types and S-FEEL](/doc/DecisionTables.md#data-types-and-s-feel)
    * [Import/Export](/doc/DecisionTables.md#importexport)
-- [Using import/export of Decision Tables with CI/CD (example export/import on check-in events)]()
 - [Keyboard Shortcuts](/doc/KeyboardShortcuts.md)
 - [Samples](/samples/)
     * Progressive samples of DMN models
