@@ -62,7 +62,7 @@ The menu options for importing and exporting Decision Tables are in the same gro
 
 ![InRule Import Export_Menu](../images/InRuleDMN_Import_Export_Menu.PNG) 
 
-Decision Tables can be imported from an external .dmn file. There is no restriction related to the number of Decision Tables that can be imported into irAuthor; the import engine will make the best attempt to import all the Decision Tables found in the referenced file. First, the user has to select from the left navigation pane, the tab "Decisions" and then select the specific Decision definition node or Decision Rule Set node where the imported objects will be placed. Once this selection is made, the "Import" -> "Decision Table(s) from .dmn file" option from the ribbon menu will be enabled. After clicking on the menu option, the user will be prompted to choose a local file with .dmn extension. 
+Decision Tables can be imported from an external .dmn file. There is no restriction related to the number of Decision Tables that can be imported into irAuthor; the import will make the best attempt to import all the Decision Tables found in the referenced file. First, the user has to select from the left navigation pane, the tab "Decisions" and then select the specific Decision definition node or Decision Rule Set node where the imported objects will be placed. Once this selection is made, the "Import" -> "Decision Table(s) from .dmn file" option from the ribbon menu will be enabled. After clicking on the menu option, the user will be prompted to choose a local file with .dmn extension. 
 
 ![InRule Import Decision Table](../images/InRuleDMN_Import_DecisionTable.PNG) 
 
