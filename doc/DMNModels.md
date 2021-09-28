@@ -137,19 +137,19 @@ _**Note:**  There is no constraint on the number of shapes or links you can use 
 
 # Basic tep by step 
 
-There are some very good books on decision modeling from James Taylor and Jan Purchase that cover indepth practice [Real World Decision Modeling with DMN](https://www.amazon.com/Real-World-Decision-Modeling-James-Taylor/dp/0929652592/ref=sr_1_3?dchild=1&keywords=James+Taylor+dmn&qid=1632853023&sr=8-3).
+There are some very good books on decision modeling from James Taylor and Jan Purchase that cover indepth practice (see [Real World Decision Modeling with DMN](https://www.amazon.com/Real-World-Decision-Modeling-James-Taylor/dp/0929652592/ref=sr_1_3?dchild=1&keywords=James+Taylor+dmn&qid=1632853023&sr=8-3)).  At the same time, we believe there are fundamental practices you can do on your own to get started with your first model.
 
-Here is a step by step guide to begin designing a decision model:
-1. Start brainstorming on what problem needs to be solved.
-2. Think of the decisions that, put together, will drive to problem resolution. Start a new irAuthor DMN Model and begin the design by dragging decisions identified so far and put an identification label on each.
-3. Start documenting decisions identified; think of what other data is needed for the decisions to be made, in input and in output. It doesn't matter where requirements for your decisions are kept (e.g.: Jira), important is represent them visually.
-4. Enrich the DMN diagram adding other connected shapes to your decisions. You may leave some shapes without being connected to others, if in doubt which or where should be connected.
-5. Think if some separation between public and private decisions is needed. If so, add decision services to you model.
-6. Separate shapes in groups, if a criteria brings light in your model.
+#### Questions to ask
+1. Brainstorm and/or journey map your business process.  What aspects of this journey (or business process) should be automated with a decision?  The decision should solve a specific automation problem.
+2. Explore all of the aspects of the candidate decisions and examine if they have sub-decisions (dependent decisions).  If you have a couple in mind, then let's model those.  Start a new irAuthor DMN Model and begin the design by dragging decisions identified so far and put an identification label on each.
+3. Once you have a couple decisions on the canvas, it's time to think about data.  Data are represented as inputs in DMN.  See if you can establish which field level data is required to drive the decisions you are thinking about.
+4. Now connect your decisions to each other.  The entry-point decision should be at the top while dependent decisions connect from below.  The lowest level decisions should have the inputs (data) connected to them.  Once your shapes are connected, you have a valid DRD.
+5. If we want to specify which decisions are public vs private, you can add the decision service shape to your canvas.  Place the entry point decision in the top portion and dependent decisions in the lower portion.  Input remain outside of the decision service shape.
+6. As a streatch goal, try grouping some of your shapes for clarity in the model.  
 
-As the requirements are detailed more, most probably the number of decisions and also other elements will grow. And maybe at some point, the model becomes too complex, that it needs to be spanned in more smaller models. It's not mandatory to keep one single model per project, as your project progresses. So it's important to repeat the steps above once in a while, to make sure you maintain a consistency of your models.
+As you model grows, it will make sense that you will break out the work into different models.  As stated above, you can have as many models as you need in a rule application.  
 
-Here is a practical example of an online store, in need for a solution on automation of the shopping cart for their customers. The main problem to be solved is to have a system that correctly calculates a customer's shopping cart total. So let's start with this decision, calculating the total price in the standard way, price per item * quantity:
+Here is a practical example of an online store that is in need of shopping cart automation. It's a simple calcation for a shopping cart total.  Let's start with a decision that does a common total: price per item * quantity:
 
 ![InRule DMN Step By Step Guide Step 1](../images/InRuleDMN_Model_Step1.PNG)
 
@@ -157,11 +157,11 @@ Now let's document more this decision, taking in consideration that some product
 
 ![InRule DMN Step By Step Guide Step 2](../images/InRuleDMN_Model_Step2.PNG)
 
-As our mini guide above suggests, it's time to think if some decisions are public, and other private. Indeed, all the discounts and promotions calculation when determining the subtotal price is internal and we should separate that from the final price calculation. So a Decision Service can be added to our model:
+As our guide above suggests, it's time to think if some decisions are public, and other private. Indeed, all the discounts and promotions calculation when determining the subtotal price is internal and we should separate that from the final price calculation. So a Decision Service can be added to our model:
 
 ![InRule DMN Step By Step Guide Step 3](../images/InRuleDMN_Model_Step3.PNG)
 
-As the analysis progresses, of course many other details appear, like where does this package will be shipped, what are the shipping taxes that need to be applied, maybe some customers are willing to pay more for a speedy shipping, so also that need to be considered. The important thing is that, as new ideas are brought into discussion, they need to be put on the model, to keep track of them and detail them at the right time.
+As the analysis progresses, many other details are discovered.  For example, shipping is a common problem.  What shipping will be used and what fees and taxes are required.  Perhaps some customers are willing to pay more for a speedy shipping and other cases might inject an offer for preferred shipping. It's important to keep the team exploring, modeling and discovering all of the aspects of each decision until it's un-ambigious.  This means that once complete, anyone on the team would know what the decisions we are going to implement and what data is required to drive them.
 
-Conclusion:
-DMN is a critical step between identifying requirements and implementation. It's purpose is to discover models and get the value out of the decision that is automatig your business.
+Happy modeling!
+
