@@ -72,13 +72,9 @@ If the chosen file has a different extension than .dmn, an error dialog box is p
 
 After the confirmation on the file to be imported, irAuthor will perform two operations:
 1. Import the Decision Table(s).
-2. For each column from the imported Decision Table(s), automatically create bound variables at decision level. So for example if the imported Decision Table has the temperature outside and chance of rain as input data, two variables will be defined at the decision level. The same goes for the actions of the Decision Table: one output variable for the decision is defined and bound to it.
+2. For each column from the imported Decision Table(s), automatically create inputs and outputs for the currently selected decision. So for example if the imported Decision Table has the temperature outside and chance of rain as input data, then two variables will be defined for the selected decision. irAuthor will automatically modify the name of duplicate decision table names.  
 
-This is a convention irAuthor is using to help users who are modelling requirements, to start importing decision tables without being tied to the schema.   
-
-If another Decision Table with the same name already exists in the selected Decision Rule Set context, irAuthor will automatically add a prefix counter at the end of the imported Decision Table name, or increment the number at the end of the name, if it ends with a digit. For example, if the rule application has a Decision named Decision1, with the DecisionStart as Decision Rule Set, and the Decision Table to be imported has the same name DecisionTable1, just like another existing Decision Table in the same location, after the import irAuthor will automatically increment the prefix counter and assign the name DecisionTable2 to the newly imported object.
-
-For the export, there are 2 features to notice:
+While exporting decision tables you should consider the following:
 - If the user selection is a decision rule set, then all the decision tables from there will be exported to a single .dmn file.
 - If the user selection is a specific decision table, then only the selected target will be exported to a .dmn file.
 
