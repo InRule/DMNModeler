@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:biodi="https://inrule.com/" id="definitions_1" exporter="InRule irAuthor®" exporterVersion="5.7.2.240" xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/">
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram id="DMNDiag_4293291" name="DMN Diagram">
+      <dmndi:DMNShape dmnElementRef="decisiontbl_42932911" isCollapsed="false">
+        <dc:Bounds x="160" y="300" width="180" height="80" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+  <decision name="WhatToWear" id="decisiontbl_42932911">
+    <decisionTable hitPolicy="FIRST" preferredOrientation="Rule-as-Row">
+      <input id="input_1" label="Season">
+        <inputExpression id="inputexpr_42932911_1" typeRef="string" />
+      </input>
+      <input id="input_2" label="TemperatureNowInF">
+        <inputExpression id="inputexpr_42932911_2" typeRef="string" />
+      </input>
+      <input id="input_3" label="ChanceOfRain">
+        <inputExpression id="inputexpr_42932911_3" typeRef="string" />
+      </input>
+      <output id="output_42932911_1" name="TakeCoat" label="TakeCoat" typeRef="boolean" />
+      <output id="output_42932911_2" name="TakeUmbrella" label="TakeUmbrella" typeRef="boolean" />
+      <rule id="rule_42932911_1">
+        <description />
+        <inputEntry id="input_val_42932911_1_1">
+          <text>"Summer"</text>
+        </inputEntry>
+        <inputEntry id="input_val_42932911_1_2">
+          <text>80</text>
+        </inputEntry>
+        <inputEntry id="input_val_42932911_1_3">
+          <text>0</text>
+        </inputEntry>
+        <outputEntry id="output_val_42932911_1_1">
+          <text>false</text>
+        </outputEntry>
+        <outputEntry id="output_val_42932911_1_2">
+          <text>false</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule_42932911_2">
+        <description />
+        <inputEntry id="input_val_42932911_2_1">
+          <text>"Summer"</text>
+        </inputEntry>
+        <inputEntry id="input_val_42932911_2_2">
+          <text>80</text>
+        </inputEntry>
+        <inputEntry id="input_val_42932911_2_3">
+          <text>70</text>
+        </inputEntry>
+        <outputEntry id="output_val_42932911_2_1">
+          <text>false</text>
+        </outputEntry>
+        <outputEntry id="output_val_42932911_2_2">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule_42932911_3">
+        <description />
+        <inputEntry id="input_val_42932911_3_1">
+          <text>"Fall"</text>
+        </inputEntry>
+        <inputEntry id="input_val_42932911_3_2">
+          <text>72</text>
+        </inputEntry>
+        <inputEntry id="input_val_42932911_3_3">
+          <text>0</text>
+        </inputEntry>
+        <outputEntry id="output_val_42932911_3_1">
+          <text>true</text>
+        </outputEntry>
+        <outputEntry id="output_val_42932911_3_2">
+          <text>false</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule_42932911_4">
+        <description />
+        <inputEntry id="input_val_42932911_4_1">
+          <text>"Fall"</text>
+        </inputEntry>
+        <inputEntry id="input_val_42932911_4_2">
+          <text>65</text>
+        </inputEntry>
+        <inputEntry id="input_val_42932911_4_3">
+          <text>70</text>
+        </inputEntry>
+        <outputEntry id="output_val_42932911_4_1">
+          <text>true</text>
+        </outputEntry>
+        <outputEntry id="output_val_42932911_4_2">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule_42932911_5">
+        <description />
+        <inputEntry id="input_val_42932911_5_1">
+          <text>"Winter"</text>
+        </inputEntry>
+        <inputEntry id="input_val_42932911_5_2">
+          <text>65</text>
+        </inputEntry>
+        <inputEntry id="input_val_42932911_5_3">
+          <text>0</text>
+        </inputEntry>
+        <outputEntry id="output_val_42932911_5_1">
+          <text>true</text>
+        </outputEntry>
+        <outputEntry id="output_val_42932911_5_2">
+          <text>false</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule_42932911_6">
+        <description />
+        <inputEntry id="input_val_42932911_6_1">
+          <text>"Winter"</text>
+        </inputEntry>
+        <inputEntry id="input_val_42932911_6_2">
+          <text>65</text>
+        </inputEntry>
+        <inputEntry id="input_val_42932911_6_3">
+          <text>70</text>
+        </inputEntry>
+        <outputEntry id="output_val_42932911_6_1">
+          <text>true</text>
+        </outputEntry>
+        <outputEntry id="output_val_42932911_6_2">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule_42932911_7">
+        <description />
+        <inputEntry id="input_val_42932911_7_1">
+          <text>"Spring"</text>
+        </inputEntry>
+        <inputEntry id="input_val_42932911_7_2">
+          <text>65</text>
+        </inputEntry>
+        <inputEntry id="input_val_42932911_7_3">
+          <text>46</text>
+        </inputEntry>
+        <outputEntry id="output_val_42932911_7_1">
+          <text>true</text>
+        </outputEntry>
+        <outputEntry id="output_val_42932911_7_2">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>
