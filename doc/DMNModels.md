@@ -161,7 +161,7 @@ As our guide above suggests, it's time to consider which decisions might be publ
 
 ![InRule DMN Step By Step Guide Step 3](../images/InRuleDMN_Model_Step3.PNG)
 
-Many other details can be discovered by the team by modeling.  For example, shipping is a common problem but complexities can emerge with different types of shipping, fees and offers.  Perhaps some customers are willing to pay more for a speedy shipping and in other cases the business might inject an offer for preferred shipping. It's important to keep the team exploring, modeling and discovering all of the aspects of each decision until it's un-ambigious.  This means that once complete, anyone on the team would know what to implement even though explict logic is not yet defined.
+Many other details can be discovered by the team while modeling.  For example, shipping is a common problem but complexities can emerge with different types of shipping, fees and offers.  Perhaps some customers are willing to pay more for a speedy shipping and in other cases the business might inject an offer for preferred shipping. It's important to keep the team exploring, modeling and discovering all of the aspects of each decision until it's un-ambigious.  This means that once complete, anyone on the team would know what to implement even though explict logic is not yet defined.
 
 Happy modeling!
 
