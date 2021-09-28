@@ -83,7 +83,7 @@ The menus for importing or exporting a DMN Model can be found on the Home ribbon
 
 _**Note:** The group "DMN" on the Home ribbon tab is visible only while the DMN Extension is enabled for irAuthor._
 
-Even though current DMN spec is at 1.3 version, there is still a lot of variations across vendors, because there are some areas of the specification which are fairly open to interpretation. For this reason, there are cases where model might not import correctly or might need modifications; and the same is true for Decision Tables.
+Even though current DMN spec is at 1.3 version, there is still a lot of variation across vendors because there are some areas of the specification which are open to interpretation. For this reason, there are cases where model might not import correctly or might need modifications after import.  The same is true for Decision Tables.
 
 To import a DMN model from an external .dmn file, find the "Import" menu on the "DMN" group on the Home ribbon tab, and click on the menu option "Decision Model from .dmn file". This menu option is always visible and enabled, no matter what item is currently selected in the left navigation pane or what is the current context of the user's selection. 
 
