@@ -2,13 +2,13 @@
 Modeling decisions is appropriate for all types of initiatives.  Perhaps you want to model existing decisions to help stakeholders understand your current inventory or maybe you want to bootstrap a new team for a new initiative.  Once you have made the choice to model, there two patterns we believe you should consider:
 
 ### Model-only Lifecycle
-DMN Modeler is implemented as an irAuthor extension.  As an extension, all models you recreate are stored within a rule application and participate with the irCatalog lifecycle.  This means you can save your models to irCatalog and revision them.  That said, it is possible to save your models to irCatalog and have no other implementation in the rule application.  This is what we call a "model-only" lifecycle.  With this approach, you can creat one or more models that represent many other rule applications.  This is an ideal pattern for decision inventories.
+DMN Modeler is implemented as an irAuthor extension.  As an extension, all models you recreate are stored within a rule application and participate with the irCatalog lifecycle.  This means you can save your models to irCatalog and revise them.  That said, it is possible to save your models to irCatalog and have no other implementation in the rule application.  This is what we call a "model-only" lifecycle.  With this approach, you can create one or more models that represent many other rule applications.  This is an ideal pattern for decision inventories.
 
 ### Local-Model Lifecycle
-There are times when the rule author would like to models for local decisions in a rule applications.  This approach helps the author know when they have discovered all of the details they need and can help stakeholders.  In this approach, models are lifecycled with the implemented decisions and participate in the revision/deployment cycle.
+There are times when the rule author would like to models for local decisions in a rule application.  This approach helps the author know when they have discovered all of the details they need and can help stakeholders.  In this approach, models are lifecycled with the implemented decisions and participate in the revision/deployment cycle.
 
 ### Making Models
-With DMN Modeler, it is possible to create a Decision Requirements Graph (DRG) from scratch. One way to think of a DRG is the available canvas for designing the model.  As the first shape is being dragged from the palette on the canvas, the Decision Requirements Diagram (DRD) is created and enriched step by step with decisions and any other shape added from the pallate. While there can be a lot of complexity around filtered views of a DRG by using multiple DRDs according to DMN spec, our implementation supports a single DRD per DRG. This means that every time a new item is added in the "DMN Models" pane, the rule application receives a new graph and one associated diagram per item.
+With DMN Modeler, it is possible to create a Decision Requirements Graph (DRG) from scratch. One way to think of a DRG is the available canvas for designing the model.  As the first shape is being dragged from the palette on the canvas, the Decision Requirements Diagram (DRD) is created and enriched step by step with decisions and any other shape added from the palette. While there can be a lot of complexity around filtered views of a DRG by using multiple DRDs according to DMN spec, our implementation supports a single DRD per DRG. This means that every time a new item is added in the "DMN Models" pane, the rule application receives a new graph and one associated diagram per item.
 
 Compatibility summary between DMN 1.3 spec and InRule DMN extension.
 
@@ -27,7 +27,7 @@ Decision Logic | Decision Table - Structure: Input clauses, Output clauses, Rule
  Visual Appearance | DMN Models: zoom in, zoom out | Yes |
    | Shapes: Decision, Business Knowledge Model, Input Data, Knowledge Source, Expanded and Collapsed Decision Service, Group, Text Annotation | Yes |
    | Connectors: Requirement, Knowledge Requirement, Authority Requirement, Association | Yes |
- Connection rules when connecting DRD elements | All possible connection rules beween DRD elements | Yes | 
+ Connection rules when connecting DRD elements | All possible connection rules between DRD elements | Yes | 
  Referencing external DMN elements | | None |
  External invocation of Decision Services | | None |
  DMN Diagram Interchange (DMN DI) | DMNDI, DMNDiagram, DMNDiagramElement, DMNShape, DMNEdge | Yes |
@@ -46,7 +46,7 @@ Renaming and removing models in the "DMN Models" component also works in the sam
 Once the user selects a DMN Model from the list in the left navigation pane, the canvas shows the selected model, ready to be modified. Possible modifications of the model are:
 * Add a shape from the palette by drag and drop onto the canvas.
 * Modify the position of a shape, with a mouse-drag from the middle area of the shape, and mouse-drop it to the desired location.
-* Resize a shape by selecting the shape with a mouse click and use one of the 8 rezise handles highlighted with light blue dots arund the shape; the middle-top and middle-bottom resize handles modify the shape's height; the middle-left and middle-right resize handles modify the shape's width; the 4 resize handles in the corners resize both the shape's height and width at the same time.
+* Resize a shape by selecting the shape with a mouse click and then dragging one of the 8 resize handles highlighted with light blue dots around the shape. The middle-top and middle-bottom resize handles modify the shape's height; the middle-left and middle-right resize handles modify the shape's width; the 4 resize handles in the corners resize both the shape's height and width at the same time.
 
   ![InRule DMN shape resize handles](../images/InRuleDMN_DecisionShapeSelected.PNG) 
 
@@ -97,11 +97,11 @@ _**Note:**  When importing a model (DRG) that contains multiple DRDs, a best eff
 
 If another model with the same name already exists in the rule application, irAuthor will automatically add a prefix counter at the end of the imported DMN Model name, or increment the number at the end of the name, if it ends with a digit. For example, if the rule application has a DMN Model named DMNModel1 and the model to be imported has the same name DMNModel1, after the import irAuthor will automatically increment the prefix counter and assign the name DMNModel2 to the newly imported object.
 
-A successfull import will add a new item in the DMN Models navigation pane and will update the canvas to display the imported model.
+A successful import will add a new item in the DMN Models navigation pane and will update the canvas to display the imported model.
 
 _**Note:**  There is no report available for the import process results. In case some elements were not imported due to inconsistency or lack of support in our extension, those elements will not exist in the model, therefore will be lost._
 
-To export a DMN Model, select the desired model from the models list and click on the "Export" menu found on the Home ribbon tab, group "DMN". Then, from the menu options availble, click on the "Selected Decision Model to .dmn file" option. 
+To export a DMN Model, select the desired model from the models list and click on the "Export" menu found on the Home ribbon tab, group "DMN". Then, from the menu options available, click on the "Selected Decision Model to .dmn file" option. 
 
 ![InRule Export DMN Model](../images/InRuleDMN_Export_Model.PNG) 
 
@@ -117,14 +117,14 @@ Shape Name | Shape Design | Description
 Decision | ![InRule DMN Decision Shape](../images/InRuleDMN_Shape_Decision.PNG) | A decision represents the act of determining an outcome from several inputs, using decision logic.
 Input Data | ![InRule DMN Input Data Shape](../images/InRuleDMN_Shape_InputData.PNG) | Input data denotes the information needed as input by one or multiple decisions
 Business Knowledge Model | ![InRule DMN Business Knowledge Model Shape](../images/InRuleDMN_Shape_BusinessKnowledgeModel.PNG) | A business knowledge model represents reusable business logic. Technically, it is a function with optional parameters (inputs) that can be invoked from decisions or other business knowledge models.
-Knowledge Source | ![InRule DMN Knowledge Source Shape](../images/InRuleDMN_Shape_KnowledgeSource.PNG) | Knowledge sources represent authorities for a decision, for a business knowledge model or for another knowledge source. These can e.g. be policies, regulations or people that have an influence on the contents of the element.
-Annotation | ![InRule DMN Annotation Shape](../images/InRuleDMN_Shape_Annotation.PNG) | Are simply notes to any of the shapes that are not containers for other shapes: decisions, input data, knowledge source, business knowledge model. Any text can be inserted into annotations. Usually they are associated with sticky notes, or a sort of container for additional attributes for the shape (like owner, or due date).
-Group | ![InRule DMN Group Shape](../images/InRuleDMN_Shape_Group.PNG) | A Group is a way to capture information during modelling requirements. Groups can be added or removed from the diagram, without having an impact on the decision model execution. Exemple of situations when a group might be useful: when a discussion is around a certain subject, so  related shapes to that subject are put visually together, without the need to connect them; or when the highlighted property for a group of shapes is the owner.
-Decision Service | ![InRule DMN Decision Service Shape](../images/InRuleDMN_Shape_DecisionService.PNG) | Decision Service encapsulates the decision logic, by providing a public and a private interface, that correspond to subsets of decisions respectively of decisions and input data.
+Knowledge Source | ![InRule DMN Knowledge Source Shape](../images/InRuleDMN_Shape_KnowledgeSource.PNG) | Knowledge sources represent authorities for a decision, for a business knowledge model or for another knowledge source. These can, for example, be policies, regulations, or people that have an influence on the contents of the element.
+Annotation | ![InRule DMN Annotation Shape](../images/InRuleDMN_Shape_Annotation.PNG) | Annotations are simply notes to any of the shapes that are not containers for other shapes: decisions, input data, knowledge source, business knowledge model. Any text can be inserted into annotations. They can be used like sticky notes, or as a sort of container for additional attributes for the shape (like owner, or due date).
+Group | ![InRule DMN Group Shape](../images/InRuleDMN_Shape_Group.PNG) | A Group is a way to capture information during modelling requirements. Groups can be added or removed from the diagram, without having an impact on the decision model execution. Examples of situations when a group might be useful include: when a discussion is around a certain subject, so  related shapes to that subject are put visually together, without the need to connect them; or when the highlighted property for a group of shapes is the owner.
+Decision Service | ![InRule DMN Decision Service Shape](../images/InRuleDMN_Shape_DecisionService.PNG) | Decision Service encapsulates the decision logic, by providing a public and a private interface, that corresponds to subsets of decisions respectively of decisions and input data.
 Simplified Decision Service | ![InRule DMN Simplified Decision Service Shape](../images/InRuleDMN_Shape_SimplifiedDecisionService.PNG) | Simplified Decision Service is similar to the Decision Service, except that fact that it does not differentiate between public and private decisions.
 
 
-The following table lists the visual representation of all possible links, when connecting 2 shapes. Not every 2 shape types can be connected, but only those ones meaninful to decision logic. See also the following table, listing those valid connections.
+The following table lists the visual representation of all possible links, when connecting 2 shapes. Not every 2 shape types can be connected, but only those ones meaningful to decision logic. See also the following table, listing those valid connections.
 
 Connector Name | Connector Design | Description
 ----------------------- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------
@@ -161,7 +161,7 @@ As our guide above suggests, it's time to consider which decisions might be publ
 
 ![InRule DMN Step By Step Guide Step 3](../images/InRuleDMN_Model_Step3.PNG)
 
-Many other details can be discovered by the team while modeling.  For example, shipping is a common problem but complexities can emerge with different types of shipping, fees and offers.  Perhaps some customers are willing to pay more for a speedy shipping and in other cases the business might inject an offer for preferred shipping. It's important to keep the team exploring, modeling, and discovering all of the aspects of each decision until it's unambigious.  This means that once complete, anyone on the team would know what to implement even though explicit logic is not yet defined.
+Many other details can be discovered by the team while modeling.  For example, shipping is a common problem but complexities can emerge with different types of shipping, fees and offers.  Perhaps some customers are willing to pay more for a speedy shipping and in other cases the business might inject an offer for preferred shipping. It's important to keep the team exploring, modeling, and discovering all of the aspects of each decision until it's unambiguous.  This means that once complete, anyone on the team would know what to implement even though explicit logic is not yet defined.
 
 Happy modeling!
 
