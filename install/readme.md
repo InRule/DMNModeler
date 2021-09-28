@@ -1,5 +1,5 @@
 # Installation
-1. Download the installation package from [here](/InstallationFiles%20v1.0.5%20for%20irAuthor%205.7.2.zip)
+1. Download the installation package from [here](/install/InstallationFiles%20v1.0.5%20for%20irAuthor%205.7.2.zip)
 1. Extract the archive into a folder on your PC where irAuthor is installed.
 1. Download and save in the extracted archive the WebView2 Runtime installer from the online link https://developer.microsoft.com/en-us/microsoft-edge/webview2/ -> on the bottom of the page -> Fixed Version -> Version 91.0.864.64 , Select Architecture x64 for 64bit operating system. The name of the installer is MicrosoftEdgeWebView2RuntimeInstallerX64.exe
 Ensure there are no instances of irAuthor currently open.
