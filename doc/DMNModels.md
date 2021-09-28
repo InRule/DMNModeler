@@ -135,21 +135,21 @@ Association | ![InRule DMN Association Link](../images/InRuleDMN_Link_Associatio
 
 _**Note:**  There is no constraint on the number of shapes or links you can use in a decision requirement diagram; you can design the DRD using the needed shapes and the most adequate position for each one of them, but take in consideration that a functional DRD should have all the shapes connected._
 
-# Basic tep by step 
+# Basic step-by-step 
 
-There are some very good books on decision modeling from James Taylor and Jan Purchase that cover indepth practice (see [Real World Decision Modeling with DMN](https://www.amazon.com/Real-World-Decision-Modeling-James-Taylor/dp/0929652592/ref=sr_1_3?dchild=1&keywords=James+Taylor+dmn&qid=1632853023&sr=8-3)).  At the same time, we believe there are fundamental practices you can do on your own to get started with your first model.
+There are some very good books on decision modeling from James Taylor and Jan Purchase that cover in-depth practice (see [Real World Decision Modeling with DMN](https://www.amazon.com/Real-World-Decision-Modeling-James-Taylor/dp/0929652592/ref=sr_1_3?dchild=1&keywords=James+Taylor+dmn&qid=1632853023&sr=8-3)).  At the same time, we believe there are fundamental practices you can do on your own to get started with your first model.
 
 #### Questions to ask
 1. Brainstorm and/or journey map your business process.  What aspects of this journey (or business process) should be automated with a decision?  The decision should solve a specific automation problem.
 2. Explore all of the aspects of the candidate decisions and examine if they have sub-decisions (dependent decisions).  If you have a couple in mind, then let's model those.  Start a new irAuthor DMN Model and begin the design by dragging decisions identified so far and put an identification label on each.
-3. Once you have a couple decisions on the canvas, it's time to think about data.  Data are represented as inputs in DMN.  See if you can establish which field level data is required to drive the decisions you are thinking about.
-4. Now connect your decisions to each other.  The entry-point decision should be at the top while dependent decisions connect from below.  The lowest level decisions should have the inputs (data) connected to them.  Once your shapes are connected, you have a valid DRD.
-5. If we want to specify which decisions are public vs private, you can add the decision service shape to your canvas.  Place the entry point decision in the top portion and dependent decisions in the lower portion.  Input remain outside of the decision service shape.
-6. As a streatch goal, try grouping some of your shapes for clarity in the model.  
+3. Once you have a couple of decisions on the canvas, it's time to think about data.  Data are represented as inputs in DMN.  See if you can establish which field-level data is required to drive the decisions you are thinking about.
+4. Now connect your decisions to each other.  The entry-point decision should be at the top while dependent decisions connect from below.  The lowest-level decisions should have the inputs (data) connected to them.  Once your shapes are connected, you have a valid DRD.
+5. If you want to specify which decisions are public versus private, you can add the decision service shape to your canvas.  Place the entry point decision in the top portion and dependent decisions in the lower portion.  Inputs remain outside of the decision service shape.
+6. As a stretch goal, try grouping some of your shapes for clarity in the model.  
 
-As you model grows, it will make sense that you will break out the work into different models.  As stated above, you can have as many models as you need in a rule application.  
+As your model grows, it will make sense that you will break out the work into different models.  As stated above, you can have as many models as you need in a rule application.  
 
-Here is a practical example of an online store that is in need of shopping cart automation. It's a simple calcation for a shopping cart total.  We also know that that the order total requires a line item calculation: price per item * quantity:
+Here is a practical example of an online store that is in need of shopping cart automation. It's a simple calculation for a shopping cart total.  We also know that that the order total requires a line item calculation: price per item * quantity:
 
 ![InRule DMN Step By Step Guide Step 1](../images/InRuleDMN_Model_Step1.PNG)
 
@@ -161,7 +161,7 @@ As our guide above suggests, it's time to consider which decisions might be publ
 
 ![InRule DMN Step By Step Guide Step 3](../images/InRuleDMN_Model_Step3.PNG)
 
-Many other details can be discovered by the team while modeling.  For example, shipping is a common problem but complexities can emerge with different types of shipping, fees and offers.  Perhaps some customers are willing to pay more for a speedy shipping and in other cases the business might inject an offer for preferred shipping. It's important to keep the team exploring, modeling and discovering all of the aspects of each decision until it's un-ambigious.  This means that once complete, anyone on the team would know what to implement even though explict logic is not yet defined.
+Many other details can be discovered by the team while modeling.  For example, shipping is a common problem but complexities can emerge with different types of shipping, fees and offers.  Perhaps some customers are willing to pay more for a speedy shipping and in other cases the business might inject an offer for preferred shipping. It's important to keep the team exploring, modeling, and discovering all of the aspects of each decision until it's unambigious.  This means that once complete, anyone on the team would know what to implement even though explicit logic is not yet defined.
 
 Happy modeling!
 
