@@ -8,7 +8,7 @@ In irAuthor, the components of a Decision Table are:
   * Conditions - each condition is a representation of an input data for the decision. A valid decision table has at least one condition.
   * Actions - each action is a representation of an output or result for the decision. A valid decision table has at least one action.
   * Decisions - the set of all possible values which, together, make the decision logic. Each decision row in the table represents a rule.
-  * ![Hit policy](DecisionTables.md#hit-policy) - governs if one or multiple rules may be validated by the matching algorithm, and in case multiple rules are allowed, in what order they are returned.
+  * ![Hit policy](/DecisionTables.md#hit-policy) - governs if one or multiple rules may be validated by the matching algorithm, and in case multiple rules are allowed, in what order they are returned.
  
  _**Note**: DMN spec defines also as a component, the annotations for every rule of the Decision Table. irAuthor does not have this feature yet._
  
