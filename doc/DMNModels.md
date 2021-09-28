@@ -1,5 +1,4 @@
-# What is DMN and where Decision Model fits into irAuthor?
-
+# Where do Decision Models fit into irAuthor?
 With DMN Modeler extension, it is possible to create a Decision Requirements Graph (DRG) from scratch. One way to think of a DRG is the available canvas for designing the model, with the help of the palette. As the first shape is being dragged from the palette on the canvas, the Decision Requirements Diagram (DRD) is created and enriched step by step with decisions and any other elements that are being added to the model. While there can be a lot of complexity around filtered views of a DRG by using multiple DRDs according to DMN spec, our implementation supports a single DRD per DRG. This means that every time a new item is added in the "DMN Models" pane, the rule application receives a new graph and one associated diagram per item.
 
 Compatibility summary between DMN 1.3 spec and InRule DMN extension.
