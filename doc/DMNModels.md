@@ -1,5 +1,14 @@
 # Where do Decision Models fit into irAuthor?
-With DMN Modeler extension, it is possible to create a Decision Requirements Graph (DRG) from scratch. One way to think of a DRG is the available canvas for designing the model, with the help of the palette. As the first shape is being dragged from the palette on the canvas, the Decision Requirements Diagram (DRD) is created and enriched step by step with decisions and any other elements that are being added to the model. While there can be a lot of complexity around filtered views of a DRG by using multiple DRDs according to DMN spec, our implementation supports a single DRD per DRG. This means that every time a new item is added in the "DMN Models" pane, the rule application receives a new graph and one associated diagram per item.
+Modeling decisions is appropriate for all types of initiatives.  Perhaps you want to model existing decisions to help stakeholders understand your current inventory or maybe you want to bootstrap a new team for a new initiative.  Once you have made the decision model, there two patterns we believe you should consider:
+
+Model-only Lifecycle
+DMN Modeler is implemented as an irAuthor extension.  As an extension, all models you recreate are stored within a rule application and participate with the irCatalog lifecycle.  This means you can save your models to irCatalog and revision them.  That said, it is possible to save your models to irCatalog and have no other implementation in the rule application.  This is what we call a "model-only" lifecycle.  With this approach, you can creat one or more models that represent many other rule applications.  This is an ideal pattern for decision inventories.
+
+Local-Model Lifecycle
+There are times when the rule author would like to models for local decisions in a rule applications.  This approach helps the author know when they have discovered all of the details they need and can help stakeholders.  In this approach, models are lifecycled with the implemented decisions and participate in the revision/deployment cycle.
+
+Making Models
+With DMN Modeler, it is possible to create a Decision Requirements Graph (DRG) from scratch. One way to think of a DRG is the available canvas for designing the model, with the help of the palette. As the first shape is being dragged from the palette on the canvas, the Decision Requirements Diagram (DRD) is created and enriched step by step with decisions and any other elements that are being added to the model. While there can be a lot of complexity around filtered views of a DRG by using multiple DRDs according to DMN spec, our implementation supports a single DRD per DRG. This means that every time a new item is added in the "DMN Models" pane, the rule application receives a new graph and one associated diagram per item.
 
 Compatibility summary between DMN 1.3 spec and InRule DMN extension.
 
