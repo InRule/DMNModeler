@@ -153,7 +153,7 @@ Here is a practical example of an online store that is in need of shopping cart 
 
 ![InRule DMN Step By Step Guide Step 1](../images/InRuleDMN_Model_Step1.PNG)
 
-Now let's document more about this decision.  Let's take into consideration that some products might have a discount, or the customer might have a promo code on the order.  
+Now let's document more about this decision.  Let's take into consideration that some products might have a discount, or the customer might have a promo code on the order.  Discounts and promo codes are detailed requirements we can explicitly add to our model.
 
 ![InRule DMN Step By Step Guide Step 2](../images/InRuleDMN_Model_Step2.PNG)
 
