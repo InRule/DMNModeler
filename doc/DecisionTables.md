@@ -2,7 +2,7 @@
 
 Decision tables are the most prefered metaphor for authoring rules by business users.  They are eficient and understandable by just about everyone without much training.  Moreover, many business analysts represent requiremnets in tablular format.  For this reason, we believe rule authors are most likely to share decision tables (in addition to their models) between teams and organizations using DMN.
 
-That said, we imagined a simple example to get started with DMN and decision tables--what to wear before leaving the house. In this case, the season might be relevant, the temperature outside, and maybe the weather predictions in the following hours. All these caractheristic may be modelled as input of a Decision Table. And because the decision is about what to wear, and maybe if the umbrella is needed, we can add those 2 outputs of the Decision Table. 
+That said, we imagined a simple example to get started with DMN and decision tables--what to wear before leaving the house. In this case, the season might be relevant, the temperature outside, and maybe the weather predictions in the following hours. All these caractheristic may be modelled as input of a Decision Table. And because the decision is about what to wear, and maybe if the umbrella is needed, we can add those two outputs of the Decision Table. 
 
 In irAuthor, the components of a Decision Table are:
   * Conditions - each condition is a representation of an input data for the decision. A valid decision table has at least one condition.
