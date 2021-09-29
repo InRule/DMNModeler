@@ -11,7 +11,7 @@ The rule application used in an import or export operation might be:
 
 Prerequisites:
 -  irSDK® (5.7.2)
--  if a reference to a rule application from irCatalog is used, the version of irCatalog should be the same as irAuthor®.
+-  if a reference to a rule application from irCatalog is used, the version of irCatalog should be the same as irAuthor®
 -  Assembly InRuleLabs.Authoring.Extensions.DMNAPI.dll
 
 Below are the list of classes and methods available in the API using the InRuleLabs.Authoring.Extensions.DMNAPI namespace.
