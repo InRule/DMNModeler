@@ -1,20 +1,20 @@
 # Defining decision tables
 
-Decision tables are the most preferred metaphor for authoring rules by business users.  They are efficient. They are understandable by just about everyone without much training.  Moreover, many business analysts represent requirements in tabular format.  For this reason, we believe rule authors are most likely to share decision tables (in addition to their models) between teams and organizations using DMN.
+Decision tables are the most preferred metaphor for authoring rules by business users.  They are efficient. They are understandable by just about everyone without much training.  Moreover, many business analysts are accustomed to presenting requirements in a tabular format.  For this reason, we believe rule authors are most likely to share decision tables (in addition to their models) between teams and organizations using DMN.
 
-As a simple example to get started with DMN and decision tables, consider the decision of what to wear before leaving the house. Some things you might consider when making this decision are the season, the temperature outside, and maybe the weather predictions in the following hours. All these considerations may be modelled as inputs of a Decision Table. The output of this decision table would be "what to wear". But you might also determine that you ought to carry an umbrella with you. Whether or not to carry an umbrella would then make a second output of the Decision Table.
+As a simple example to get started with DMN and decision tables, consider the decision of what to wear before leaving the house. Some things you might consider when making this decision are the season, the temperature outside, and maybe the weather predictions in the following hours. All these considerations may be modelled as inputs of a decision table. The output of this decision table would be "what to wear". But you might also determine that you ought to carry an umbrella with you. Whether or not to carry an umbrella would then make a second output of the decision table.
 
-In irAuthor, the components of a Decision Table are:
+In irAuthor, the components of a decision table are:
   * Conditions - each condition is a representation of an input data for the decision. A valid decision table has at least one condition.
   * Actions - each action is a representation of an output or result for the decision. A valid decision table has at least one action.
   * Decisions - the set of all possible values which, together, make the decision logic. Each decision row in the table represents a rule.
   * [Hit policy](DecisionTables.md#hit-policy) - governs if one or multiple rules may be validated by the matching algorithm, and in case multiple rules are allowed, in what order they are returned.
  
- Having the example above, this is how a Decision Table would be defined in irAuthor.
+ Having the example above, this is how a decision table would be defined in irAuthor.
 
 ![InRule Sample Decision Table WhatToWear](../images/InRuleDMN_SampleDecisionTable_Components.PNG) 
 
-View the complete [.dmn file of "WhatToWear" Decision Table](../samples/InRuleDMN_SampleDecisionTable_WhatToWear.dmn). It can be opened in Notepad or any other tool which supports DMN to view the contents and our level of DMN conformity.
+View the complete [.dmn file of "WhatToWear" decision table](../samples/InRuleDMN_SampleDecisionTable_WhatToWear.dmn). It can be opened in Notepad or any other tool which supports DMN to view the contents and our level of DMN conformity.
 
 Notice that our example has two actions.  Whenever this decision table is executed, it will return the actions defined in the table.  The hit policy determines how the rows are processed by the engine.  InRule supports DMN's "First" policy which means the engine will quit processing downstream rows once it encounters the first row who's criteria columns are matched.  In the case of DMN's "Rule Order", the engine is also able to process all rows of the table in sequential order.  In this case, the action columns are likely to be over-written multiple times with the last row executed having the last say in the final output.  Hit polices for DMN are detailed in a table below for more detailed explanation.
 
@@ -40,12 +40,12 @@ InRule support | Hit policy | Explanation
    | Collect (Maximum) | Same as collect, only that it applies the max (or largest, depending on the context) operator of all matching outputs.
    | Collect (Count) | Same as collect, only that it applies the count operator to count all matching outputs.
 
-When importing a Decision Table from a .dmn file, "First" hit policy is honored. All others map to "Rule Order" (multiple hits). The checked flag "Exit at first true" on the Decision Table definition represents the "First" hit policy.
+When importing a decision table from a .dmn file, "First" hit policy is honored. All others map to "Rule Order" (multiple hits). The checked flag "Exit at first true" on the decision table definition represents the "First" hit policy.
 
 ## Data types and S-FEEL 
 
 Condition definition implements Simple Friendly Enough Expression Language (S-FEEL) specification. Condition's linked field can be a variable of primary type, or an entity field. 
-When bound to a primary type variable, one of the data types can be used or mapped during import of a Decision Table:
+When bound to a primary type variable, one of the data types can be used or mapped during import of a decision table:
 
 S-FEEL Data Type | InRule Data Type | Comments | Import/Export supported patterns
 ---------------|--------------------|------------------------------|---------------------------------------------------------------------------------------------------------
@@ -58,21 +58,21 @@ Date and Time | DateTime | Holds a date together with time expressed in hours, m
 
 
 # Import/Export
-The menu options for importing and exporting Decision Tables are in the same group "DMN" on the Home ribbon tab, as for importing and exporting DMN Models.
+The menu options for importing and exporting decision tables are in the same group "DMN" on the Home ribbon tab, as for importing and exporting DMN models.
 
 ![InRule Import Export_Menu](../images/InRuleDMN_Import_Export_Menu.PNG) 
 
-Decision Tables can be imported from an external .dmn file. There is no restriction related to the number of Decision Tables that can be imported into irAuthor; the import will make the best attempt to import all the Decision Tables found in the referenced file. First, the user has to select from the left navigation pane, the tab "Decisions" and then select the specific Decision definition node or Decision Rule Set node where the imported objects will be placed. Once this selection is made, the "Import" -> "Decision Table(s) from .dmn file" option from the ribbon menu will be enabled. After clicking on the menu option, the user will be prompted to choose a local file with .dmn extension. 
+Decision tables can be imported from an external .dmn file. There is no restriction related to the number of decision tables that can be imported into irAuthor; the import will make the best attempt to import all the decision tables found in the referenced file. First, the user has to select from the left navigation pane, the tab "Decisions" and then select the specific Decision definition node or Decision rule set node where the imported objects will be placed. Once this selection is made, the "Import" -> "Decision Table(s) from .dmn file" option from the ribbon menu will be enabled. After clicking on the menu option, the user will be prompted to choose a local file with .dmn extension. 
 
 ![InRule Import Decision Table](../images/InRuleDMN_Import_DecisionTable.PNG) 
 
-If the chosen file has a different extension than .dmn, an error dialog box is presented and, similarly to the behavior when importing a DMN Model, and no import is performed.
+If the chosen file has a different extension than .dmn, an error dialog box is presented and, similarly to the behavior when importing a DMN model, and no import is performed.
 
 ![InRule Invalid File on Import Decision Model](../images/InRuleDMN_InvalidFileForImport.PNG) 
 
 After the confirmation on the file to be imported, irAuthor will perform two operations:
-1. Import the Decision Table(s).
-2. For each column from the imported Decision Table(s), automatically create inputs and outputs for the currently selected decision. So for example if the imported Decision Table has the temperature outside and chance of rain as input data, then two variables will be defined for the selected decision. irAuthor will automatically modify the name of duplicate decision table names.  
+1. Import the decision table(s).
+2. For each column from the imported decision table(s), automatically create inputs and outputs for the currently selected decision. So for example if the imported decision table has the temperature outside and chance of rain as input data, then two variables will be defined for the selected decision. irAuthor will automatically modify the name of duplicate decision table names.  
 
 While exporting decision tables you should consider the following:
 - If the user selection is a decision rule set, then all the decision tables from there will be exported to a single .dmn file.
