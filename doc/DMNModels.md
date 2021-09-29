@@ -135,7 +135,7 @@ Association | ![InRule DMN Association Link](../images/InRuleDMN_Link_Associatio
 
 _**Note:**  There is no constraint on the number of shapes or links you can use in a decision requirement diagram; you can design the DRD using the needed shapes and the most adequate position for each one of them, but take in consideration that a functional DRD should have all the shapes connected._
 
-# Basic step-by-step 
+# Step-by-step guide on how to design a decision model 
 
 There are some very good books on decision modeling from James Taylor and Jan Purchase that cover in-depth practice (see [Real World Decision Modeling with DMN](https://www.amazon.com/Real-World-Decision-Modeling-James-Taylor/dp/0929652592/ref=sr_1_3?dchild=1&keywords=James+Taylor+dmn&qid=1632853023&sr=8-3)). At the same time, we believe there are fundamental practices you can do on your own to get started with your first model.
 
