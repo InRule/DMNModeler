@@ -4,13 +4,13 @@ Decision tables are the most preferred metaphor for authoring rules by business 
 
 As a simple example to get started with DMN and decision tables, consider the decision of what to wear before leaving the house. Some things you might consider when making this decision are the season, the temperature outside, and maybe the weather predictions in the following hours. All these considerations may be modelled as inputs of a decision table. The output of this decision table would be "what to wear". But you might also determine that you ought to carry an umbrella with you. Whether or not to carry an umbrella would then make a second output of the decision table.
 
-In irAuthor, the components of a decision table are:
+In irAuthor®, the components of a decision table are:
   * Conditions - each condition is a representation of an input data for the decision. A valid decision table has at least one condition.
   * Actions - each action is a representation of an output or result for the decision. A valid decision table has at least one action.
   * Decisions - the set of all possible values which, together, make the decision logic. Each decision row in the table represents a rule.
   * [Hit policy](DecisionTables.md#hit-policy) - governs if one or multiple rules may be validated by the matching algorithm, and in case multiple rules are allowed, in what order they are returned.
  
- Having the example above, this is how a decision table would be defined in irAuthor®.
+ Having the example above, this is how a decision table would be defined in irAuthor.
 
 ![InRule Sample Decision Table WhatToWear](../images/InRuleDMN_SampleDecisionTable_Components.PNG) 
 
