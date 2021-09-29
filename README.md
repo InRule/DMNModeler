@@ -47,8 +47,9 @@ Installation instructions are located [here](/install/readme.md).
 - [Keyboard Shortcuts](/doc/KeyboardShortcuts.md)
 - [Public API](/doc/PublicAPIForDMN Modeler.md)
 - [Samples](/samples/)
-    * Progressive samples of DMN models
-    * Industry models (lending kit, etc)
+  
+    * Industry models
+      * [Mortgage Pre-Qualification](/samples/PreQualificationModel.dmn)
     * Decision Tables
       * [Basic sample "WhatToWear"](/samples/InRuleDMN_SampleDecisionTable_WhatToWear.dmn)
       * [Automotive sample "TireTesting"](/samples/InRuleDMN_SampleDecisionTable_TireTesting.dmn)
