@@ -34,7 +34,7 @@ Decision Logic | Decision Table - Structure: Input clauses, Output clauses, Rule
   
 
 ## Add a new DMN Model
-Once the DMN Modeler extension is enabled, a new component is visible on the left navigation pane of irAuthor, named “DMN Models”. To create a DMN Model from scratch, navigate to the DMN Models component and press the Add button (just as you would do in any other component of the navigation pane: Entities, Rules, Decisions, etc.). 
+Once the DMN Modeler extension is enabled, a new component is visible on the left navigation pane of irAuthor, named “DMN Models”. To create a DMN model from scratch, navigate to the DMN Models component and press the Add button (just as you would do in any other component of the navigation pane: Entities, Rules, Decisions, etc.). 
 
 ![irAuthor Add DMN Model Button](../images/InRuleDMN_AddModelButton.PNG) 
 
@@ -43,7 +43,7 @@ Renaming and removing models in the "DMN Models" component also works in the sam
 
 ## Modify an existing DMN Model
 
-Once the user selects a DMN Model from the list in the left navigation pane, the canvas shows the selected model, ready to be modified. Possible modifications of the model are:
+Once the user selects a DMN model from the list in the left navigation pane, the canvas shows the selected model, ready to be modified. Possible modifications of the model are:
 * Add a shape from the palette by drag and drop onto the canvas.
 * Modify the position of a shape, with a mouse-drag from the middle area of the shape, and mouse-drop it to the desired location.
 * Resize a shape by selecting the shape with a mouse click and then dragging one of the 8 resize handles highlighted with light blue dots around the shape. The middle-top and middle-bottom resize handles modify the shape's height; the middle-left and middle-right resize handles modify the shape's width; the 4 resize handles in the corners resize both the shape's height and width at the same time.
@@ -77,7 +77,7 @@ A confirmation dialog box appears, where the final deletion may be confirmed or 
 
 # Import/Export of models
 
-The menus for importing or exporting a DMN Model can be found on the Home ribbon tab, group "DMN".
+The menus for importing or exporting a DMN model can be found on the Home ribbon tab, group "DMN".
 
 ![irAuthor Import Export_Menu](../images/InRuleDMN_Import_Export_Menu.PNG) 
 
@@ -95,7 +95,7 @@ Then, locate the file on the local file system and confirm the selection. Note t
 
 _**Note:**  When importing a model (DRG) that contains multiple DRDs, a best effort merge is done to flatten the DRDs into one._
 
-If another model with the same name already exists in the rule application, irAuthor will automatically add a prefix counter at the end of the imported DMN Model name, or increment the number at the end of the name, if it ends with a digit. For example, if the rule application has a DMN Model named DMNModel1 and the model to be imported has the same name DMNModel1, after the import irAuthor will automatically increment the prefix counter and assign the name DMNModel2 to the newly imported object.
+If another model with the same name already exists in the rule application, irAuthor will automatically add a prefix counter at the end of the imported DMN model name, or increment the number at the end of the name, if it ends with a digit. For example, if the rule application has a DMN model named DMNModel1 and the model to be imported has the same name DMNModel1, after the import irAuthor will automatically increment the prefix counter and assign the name DMNModel2 to the newly imported object.
 
 A successful import will add a new item in the DMN Models navigation pane and will update the canvas to display the imported model.
 
@@ -141,7 +141,7 @@ There are some very good books on decision modeling from James Taylor and Jan Pu
 
 #### Questions to ask
 1. Brainstorm and/or journey map your business process. What aspects of this journey (or business process) should be automated with a decision?  The decision should solve a specific automation problem.
-2. Explore all of the aspects of the candidate decisions and examine if they have sub-decisions (dependent decisions). If you have a couple in mind, then let's model those. Start a new irAuthor DMN Model and begin the design by dragging decisions identified so far and put an identification label on each.
+2. Explore all of the aspects of the candidate decisions and examine if they have sub-decisions (dependent decisions). If you have a couple in mind, then let's model those. Start a new irAuthor DMN model and begin the design by dragging decisions identified so far and put an identification label on each.
 3. Once you have a couple of decisions on the canvas, it's time to think about data. Data are represented as inputs in DMN. See if you can establish which field-level data is required to drive the decisions you are thinking about.
 4. Now connect your decisions to each other. The entry-point decision should be at the top while dependent decisions connect from below. The lowest-level decisions should have the inputs (data) connected to them. Once your shapes are connected, you have a valid DRD.
 5. If you want to specify which decisions are public versus private, you can add the decision service shape to your canvas. Place the entry point decision in the top portion and dependent decisions in the lower portion. Inputs remain outside of the decision service shape.
