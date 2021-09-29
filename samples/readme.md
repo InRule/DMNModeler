@@ -2,7 +2,7 @@
 
 # Industry models (lending kit, etc)
   
-  ![Mortgage Pre-Qualification Sample](../images/PreQualificationModel.PNG)
+  ![Mortgage Pre-Qualification Sample](../images/PreQualificationModel.png)
 
   [View full .dmn file "Mortgage Pre-Qualification Sample"](../samples/PreQualificationModel.dmn)
 
