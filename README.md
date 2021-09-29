@@ -4,7 +4,7 @@
 
 Welcome to the DMN Modeler repository on GitHub.  This repository contains everything you need to model decisions using Decision Model and Notation (DMN) 1.3 (as established by OMG) in conjuction with irAuthor® from InRule Technology®.
 
-DMN, as a practice, provides a formal approach to discover decisions, inventory existing decisions and implement them progressively while minimizing friction.  The standard also describes implementation for executable logic beyond modeling, such as expressions and specific rule artifacts like decision tables.  At a very high level, DMN provides a rich canvas to quickly discover which decisions are public or private, the data they rely on and the supporting aspects covering topics like requirements, dependencies on machine learning models and notes (Annotations).  While conducting workshops for a new project, DMN is a great way for the team to share what they know, document it and prepare a backlog of work that will be assigned to team members.
+DMN, as a practice, provides a formal approach to discover decisions, inventory existing decisions, and implement them progressively while minimizing friction.  The standard also describes implementation for executable logic beyond modeling, such as expressions and specific rule artifacts like decision tables.  At a very high level, DMN provides a rich canvas to quickly discover which decisions are public or private, the data they rely on and the supporting aspects covering topics like requirements, dependencies on machine learning models and notes (Annotations).  While conducting workshops for a new project, DMN is a great way for the team to share what they know, document it and prepare a backlog of work that will be assigned to team members.
 
 ### Who is this for?
 DMN is for anyone who must understand the automation that exists (under management) and any backlog of automation waiting to be implemented by a team.  DMN models can be quickly understood at a high level without getting into the implementation details.  
@@ -35,7 +35,7 @@ Installation instructions are located [here](/install/readme.md).
 ### Documentation and Samples:
 
 - [Support for DMN Models](/doc/DMNModels.md)
-   * [What is DMN and where Decision Model fits into irAuthor?](/doc/DMNModels.md)
+   * [Where do Decision Models fit into irAuthor?](/doc/DMNModels.md)
    * [Import/Export of models](/doc/DMNModels.md#importexport-of-models)
    * [Explore shapes and connectors](/doc/DMNModels.md#explore-shapes-and-connectors)
    * [Step by step guide on how to design a decision model](/doc/DMNModels.md#step-by-step-guide-on-how-to-design-a-decision-model)
