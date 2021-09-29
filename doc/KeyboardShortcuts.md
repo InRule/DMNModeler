@@ -1,6 +1,6 @@
 # Keyboard Shortcuts
 
-InRule irAuthor DMN extension supports keyboard shortcuts when editing a DMN Model. Keyboard shortcuts are intended to be used on the same DMN Model canvas, meaning that these commands cannot be shared amongst different DMN Models.
+DMN Modeler, InRule Technology's DMN extension for irAuthor® supports keyboard shortcuts when editing a DMN model. Keyboard shortcuts are intended to be used on the same DMN model canvas, meaning that these commands cannot be used between different DMN models.
 
 The following key combinations can be used:
 
