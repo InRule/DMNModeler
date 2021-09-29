@@ -51,7 +51,7 @@ Sample code for Method signature 2:
     ruleAppDef.SaveToFile(ruleAppFilePath);
     Console.WriteLine("Finished");
 ```
-Method ImportIntoCatalogRuleApp: Use this method for importing one or more decision tables into a Catalog rule application. A new revision will be automatically created after a successfull import.
+Method ImportIntoCatalogRuleApp: Use this method for importing one or more decision tables into a catalog rule application. A new revision will be automatically created after a successfull import.
 
 Method signature:
 
