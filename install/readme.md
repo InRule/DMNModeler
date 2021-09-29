@@ -1,4 +1,8 @@
 # Installation
+
+<iframe src="https://player.vimeo.com/video/617285075?h=a6604f7220" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/617285075">Installing DMN Modeler for irAuthor&reg;</a> from <a href="https://vimeo.com/inrule">InRule</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 1. Download the installation package from [here](/install/InstallationFiles%20v1.0.5%20for%20irAuthor%205.7.2.zip)
 1. Extract the archive into a folder on your PC where irAuthor is installed.
 1. Download and save in the extracted archive the WebView2 Runtime installer from the online link https://developer.microsoft.com/en-us/microsoft-edge/webview2/ -> on the bottom of the page -> Fixed Version -> Version 91.0.864.64 , Select Architecture x64 for 64bit operating system. The name of the installer is MicrosoftEdgeWebView2RuntimeInstallerX64.exe
