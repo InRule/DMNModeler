@@ -15,11 +15,11 @@ irAuthor users can create decision models based on the DMN 1.3 specification.  T
 ### What is InRule's level of participation in the DMN standard?
 InRule is an active member of [DecisionAutomation.org](https://www.decisionautomation.org).  This consortium consists of working groups focused on adoption and sponsoring requierments for DMN.  You can read more about our charter and the [DMN On-ramp Group](https://www.decisionautomation.org/dmn-on-ramp-group) and follow our activities.
 
-### Why is DMN released as an Extension?
+### Why is DMN Modeler released as an extension?
 There is currently a lot of innovation taking place around the standard.  For this reason, we decided an extension would provide more rapid access to changes independent of our traditional release cadences.  
 
-### What is the support model for DMN?
-DMN is released as a managed extension.  This means that it is fully supported by InRule's support team.  Any question or issue may be submitted to [support@inrule.com].
+### What is the support model for DMN Modeler?
+DMN Modeler is released as a managed extension.  This means that it is fully supported by InRule's support team.  Any question or issue may be submitted to [support@inrule.com].
 
 ### Licensing
 DMN requires a valid irAuthor license to run.
