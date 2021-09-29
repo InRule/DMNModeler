@@ -2,9 +2,9 @@
 
 # Industry models (lending kit, etc)
   
-  ![Mortgage Pre-Qualification Sample](../images/PreQualification.PNG)
+  ![Mortgage Pre-Qualification Sample](../images/PreQualificationModel.PNG)
 
-  [View full .dmn file "Mortgage Pre-Qualification Sample"](../samples/PreQualification.dmn)
+  [View full .dmn file "Mortgage Pre-Qualification Sample"](../samples/PreQualificationModel.dmn)
 
 # Decision Table "WhatToWear"
   
