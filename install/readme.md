@@ -1,5 +1,7 @@
 # Installation
 
+[Install Video Instructions](https://player.vimeo.com/video/617285075?h=a6604f7220)
+
 <iframe src="https://player.vimeo.com/video/617285075?h=a6604f7220" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/617285075">Installing DMN Modeler for irAuthor&reg;</a> from <a href="https://vimeo.com/inrule">InRule</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
