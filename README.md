@@ -47,7 +47,6 @@ Installation instructions are located [here](/install/readme.md).
 - [Keyboard Shortcuts](/doc/KeyboardShortcuts.md)
 - [Public API](/doc/PublicAPIForDMN Modeler.md)
 - [Samples](/samples/)
-  
     * Industry models
       * [Mortgage Pre-Qualification](/samples/PreQualificationModel.dmn)
     * Decision Tables
