@@ -1,8 +1,8 @@
 # Defining decision tables
 
-Decision tables are the most preferred metaphor for authoring rules by business users. They are efficient. They are understandable by just about everyone without much training. Moreover, many business analysts are accustomed to presenting requirements in a tabular format. For this reason, we believe rule authors are most likely to share decision tables (in addition to their models) between teams and organizations using DMN.
+Decision tables are the most preferred metaphor for authoring rules by business users. They are efficient. They are understandable by just about everyone without much training. Moreover, many business analysts are accustomed to presenting requirements in a tabular format. For these reasons, we believe decision tables are what rule authors are most likely to use when sharing rules between teams and organizations using DMN.
 
-As a simple example to get started with DMN and decision tables, consider the decision of what to wear before leaving the house. Some things you might consider when making this decision are the season, the temperature outside, and maybe the weather predictions in the following hours. All these considerations may be modelled as inputs of a decision table. The output of this decision table would be "what to wear". But you might also determine that you ought to carry an umbrella with you. Whether or not to carry an umbrella would then make a second output of the decision table.
+As a simple example to get started with DMN and decision tables, consider the decision of what to wear before leaving the house. Some things you might consider when making this decision are the season, the temperature outside, and maybe the weather predictions in the following hours. All these considerations may be modelled as inputs of a decision table. The output of this decision table would be "what to wear". But you might also determine that you ought to carry an umbrella with you. Whether or not to carry an umbrella could become a second output of the decision table.
 
 In irAuthor®, the components of a decision table are:
   * Conditions - each condition is a representation of an input data for the decision. A valid decision table has at least one condition.
@@ -52,9 +52,9 @@ S-FEEL Data Type | InRule Data Type | Comments | Import/Export supported pattern
 Number | Integer, Decimal | Holds a numeric value; are allowed comparisons and expressions like is in an interval. | 10, > 10, >= 10, < 10, <= 10, [2..10], (2..10], [2..10), ]2..10[
 Boolean | Boolean | Holds a boolean value. | true, false
 String | Text | Any sequence of chars; are allowed expressions like string is equal to, among, or not equal to. | "Winter", not("Summer"), Not Fall
-Date | Date | Holds 3 infos: year, month and day. | date("2021-08-19")
-Time | - | On the import, value is converted to Text data type and imported as a string. | any pattern, including time("09:10:11.123+01:00")
-Date and Time | DateTime | Holds a date together with time expressed in hours, minutes and seconds. | date and time("2021-08-19T09:10:11")
+Date | Date | Has 3 parts: year, month and day. | date("2021-08-19")
+Time | - | On import, value is converted to Text data type and imported as a string. | any pattern, including time("09:10:11.123+01:00")
+Date and Time | DateTime | A date together with the time expressed in hours, minutes and seconds. | date and time("2021-08-19T09:10:11")
 
 
 # Import/Export
