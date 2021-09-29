@@ -66,7 +66,7 @@ Decision tables can be imported from an external .dmn file. There is no restrict
 
 ![InRule Import Decision Table](../images/InRuleDMN_Import_DecisionTable.PNG) 
 
-If the chosen file has a different extension than .dmn, an error dialog box is presented and, similarly to the behavior when importing a DMN model, and no import is performed.
+If the chosen file has a different extension than .dmn, an error dialog box is presented and, similarly to the behavior when importing a DMN model, no import is performed.
 
 ![InRule Invalid File on Import Decision Model](../images/InRuleDMN_InvalidFileForImport.PNG) 
 
