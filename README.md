@@ -45,7 +45,7 @@ Installation instructions are located [here](/install/readme.md).
    * [Data types and S-FEEL](/doc/DecisionTables.md#data-types-and-s-feel)
    * [Import/Export](/doc/DecisionTables.md#importexport)
 - [Keyboard Shortcuts](/doc/KeyboardShortcuts.md)
-- [Public API](/doc/PublicAPIForDMN Modeler.md)
+- [Public API](/doc/PublicAPIForDMNModeler.md)
 - [Samples](/samples/)
     * Industry models
       * [Mortgage Pre-Qualification](/samples/PreQualificationModel.dmn)
