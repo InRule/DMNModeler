@@ -1,5 +1,3 @@
-# Progressive samples of DMN models
-
 # Industry models (lending kit, etc)
   
   ![Mortgage Pre-Qualification Sample](../images/PreQualificationModel.png)
