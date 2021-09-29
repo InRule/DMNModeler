@@ -1,24 +1,24 @@
 # DMN Public API 
 
 DMN Modeler includes a public API consisting of a set of classes that import/export DMN models and decision tables.  More specifically, a developer has the classes to do the following:
--	Import and Export DMN Decision Table(s) to and from a Rule Application
--	Import and Export DMN Model(s) to and from a Rule Application
+-  Import and export DMN decision table(s) to and from a rule application
+-  Import and export DMN model(s) to and from a rule application
 
-The Rule Application used in an import or export operation might be:
-- A Rule Application saved on the local file system
-- A reference to an object representing a Rule Application definition
-- A Rule Application from irCatalog
+The rule application used in an import or export operation might be:
+- A rule application saved on the local file system
+- A reference to an object representing a rule application definition
+- A rule application from irCatalog®
 
 Prerequisites:
--	InRule irAuthor SDK (5.7.2)
--	if a reference to a Rule Application from irCatalog is used, the version of irCatalog should be the same as irAuthor.
--	Assembly InRuleLabs.Authoring.Extensions.DMNAPI.dll
+-  irSDK® (5.7.2)
+-  if a reference to a rule application from irCatalog is used, the version of irCatalog should be the same as irAuthor®.
+-  Assembly InRuleLabs.Authoring.Extensions.DMNAPI.dll
 
 Below are the list of classes and methods available in the API using the InRuleLabs.Authoring.Extensions.DMNAPI namespace.
 
 ## DMNDecisionTableAPI class
 
-Method ImportIntoLocalRuleApp: Use the this method for importing one or more Decision Tables into a local Rule Application. The Rule Application might be a reference to an existing one, or, if paramter is omitted, a new Rule Application will be created from scratch. The resulting Rule Application, after import, is validated and if no validation errors are found, will be saved to the provided local path on file system.
+Method ImportIntoLocalRuleApp: Use the this method for importing one or more decision tables into a local rule application. The rule application might be a reference to an existing one, or, if paramter is omitted, a new rule application will be created from scratch. The resulting rule application, after import, is validated and if no validation errors are found, will be saved to the provided local path on file system.
 
 Method signature 1:
 
@@ -45,13 +45,13 @@ Sample code for Method signature 2:
     // Create rule application reference
     var ruleApp = new FileSystemRuleApplicationReference(ruleAppFilePath);
     RuleApplicationDef ruleAppDef = ruleApp.GetRuleApplicationDef();
-    // Import Decision Table(s)
+    // Import decision table(s)
     DMNDecisionTableAPI.ImportIntoLocalRuleApp(@"D:\sample_DT.dmn", ruleAppDef);
-    // Save the Rule Application after import
+    // Save the rule application after import
     ruleAppDef.SaveToFile(ruleAppFilePath);
     Console.WriteLine("Finished");
 ```
-Method ImportIntoCatalogRuleApp: Use this method for importing one or more Decision Tables into a Catalog Rule Application. A new revision will be automatically created after a successfull import.
+Method ImportIntoCatalogRuleApp: Use this method for importing one or more decision tables into a Catalog rule application. A new revision will be automatically created after a successfull import.
 
 Method signature:
 
@@ -66,7 +66,7 @@ Sample code (please replace the values for parameters catalogServiceUri, usernam
     Console.WriteLine("Finished");
 ```
 
-Method ExportFromLocalRuleAppToDMNFormat: Use this method for exporting one or more Decision Tables from a Rule Application reference, to a local .dmn file on file system.
+Method ExportFromLocalRuleAppToDMNFormat: Use this method for exporting one or more decision tables from a rule application reference, to a local .dmn file on file system.
 
 Method signature 1:
 
@@ -100,7 +100,7 @@ Sample code for Method signature 2:
 
 ## DMNModelAPI class
 
-Method ImportIntoLocalRuleApp: Use this method for importing a DRG (Decision Requirements Graph) into the referenced Rule Application.
+Method ImportIntoLocalRuleApp: Use this method for importing a DRG (Decision Requirements Graph) into the referenced rule application.
 
 Method signature 1:
 
@@ -128,9 +128,9 @@ Sample code for Method signature 2:
    // Create rule application reference
    var ruleApp = new FileSystemRuleApplicationReference(ruleAppFilePath);
    RuleApplicationDef ruleAppDef = ruleApp.GetRuleApplicationDef();
-   // Import Decision Table(s)
+   // Import decision table(s)
    DMNDecisionTableAPI.ImportIntoLocalRuleApp(@"D:\sample_Model.dmn", ruleAppDef);
-   // Save the Rule Application after import
+   // Save the rule application after import
    ruleAppDef.SaveToFile(ruleAppFilePath);
    Console.WriteLine("Finished");
 ```
