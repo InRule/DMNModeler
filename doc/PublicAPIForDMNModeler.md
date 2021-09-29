@@ -59,10 +59,10 @@ Method signature:
 public static string ImportIntoCatalogRuleApp(string dmnFilePath, Uri catalogServiceUri, string username, string password, string ruleAppNameInCatalog)
 ```
 
-Sample code:
+Sample code (please replace the values for parameters catalogServiceUri, username and password with your access credentials):
 ```C#
     Console.WriteLine("Start importing Decision Tables into Catalog Rule Application...");
-    DMNDecisionTableAPI.ImportIntoCatalogRuleApp(@"D:\sample_DT.dmn", new Uri("https://inrule-catalog.azurewebsites.net/service.svc"), "RuleAuthor", "password", "MortgageLendingKit");
+    DMNDecisionTableAPI.ImportIntoCatalogRuleApp(@"D:\sample_DT.dmn", new Uri("YOUR_SERVICE_URI_FOR_THE_CATALOG"), "username", "password", "MortgageLendingKit");
     Console.WriteLine("Finished");
 ```
 
