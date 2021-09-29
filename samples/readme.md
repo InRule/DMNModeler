@@ -1,4 +1,4 @@
-# Industry models (lending kit, etc)
+# Industry models 
   
   ![Mortgage Pre-Qualification Sample](../images/PreQualificationModel.png)
 
