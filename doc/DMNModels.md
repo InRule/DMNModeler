@@ -1,5 +1,5 @@
 # Where does decision modeling fit in the authoring process? 
-Modeling decisions is appropriate for all types of initiatives. Perhaps you want to model existing decisions to help stakeholders understand your current inventory, or maybe you want to bootstrap a new team for a new initiative. Once you have made the choice to model, there two patterns we believe you should consider:
+Decision modeling is appropriate for all types of initiatives. Perhaps you want to model existing decisions to help stakeholders understand your current inventory, or maybe you want to bootstrap a new team for a new initiative. Once you have made the choice to model, there two patterns we believe you should consider.
 
 ### Model-only Lifecycle
 DMN Modeler is implemented as an irAuthor® extension. As an extension, all models you recreate are stored within a rule application and participate with the irCatalog lifecycle. This means you can save your models to irCatalog® and revise them. That said, it is possible to save your models to irCatalog and have no other implementation in the rule application. This is what we call a "model-only" lifecycle. With this approach, you can create one or more models that represent many other rule applications. This is an ideal pattern for decision inventories.
