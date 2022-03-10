@@ -1,5 +1,7 @@
 # Installation
 
+Please note:  DMN Modeler does not currently install with some irAuthor trial installations.  If you are in the middle of a trial, download irAuthor from the support site directly before following the instructions below.  [Support Site Downloads](https://support.inrule.com/hc/en-us/articles/360058138552-Download-InRule-Software)
+
 [Install Video Instructions](https://player.vimeo.com/video/617285075?h=a6604f7220)
 
 
