@@ -1,6 +1,12 @@
 # Installation
 
-Please note:  DMN Modeler does not currently install with some irAuthor trial installations.  If you are in the middle of a trial, download irAuthor from the support site directly before following the instructions below.  [Support Site Downloads](https://support.inrule.com/hc/en-us/articles/360058138552-Download-InRule-Software)
+Installation Notes
+
+DMN Modeler does not currently install with some irAuthor trial installations.  If you are in the middle of a trial, download irAuthor from the support site directly before following the instructions below.  [Support Site Downloads](https://support.inrule.com/hc/en-us/articles/360058138552-Download-InRule-Software)
+
+If you have more than one installation of irAuthor (side-by-side install), note that the instructions below will look for the default installation location 'C:\Program Files (x86)\InRule'.  If you would like DMN Modeler installed to a different instance, simply rename your target instance to 'InRule' prior to following the instructions.
+
+
 
 [Install Video Instructions](https://player.vimeo.com/video/617285075?h=a6604f7220)
 
