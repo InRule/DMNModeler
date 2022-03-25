@@ -169,7 +169,7 @@ DMN Modeler 1.1 introduced shape properties accessed from the 'mini menu' using 
 
 #### Links
 
-![Link](../images/Link.png)
+![Link](../images/Link2.png)
 
 #### General Behavior
 Links allow shapes to navigate to external content or internal components of a Rule Application.  Once established, a link icon is available from the 'mini menu'.  Links are removed by removing the text of the link.
