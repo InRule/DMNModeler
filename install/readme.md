@@ -2,7 +2,7 @@
 
 ##### Installation Notes for DMN Modeler 1.1 and irAuthor 5.7.2
 
-DMN Modeler does not currently install with some irAuthor trial installations.  If you are in the middle of a trial, download irAuthor from the support site directly before following the instructions below.  [Support Site Downloads](https://support.inrule.com/hc/en-us/articles/360058138552-Download-InRule-Software)
+DMN Modeler does not currently install with some irAuthor trial installations.  If you are in the middle of a trial, download irAuthor from the support site directly ( [Support Site Downloads](https://support.inrule.com/hc/en-us/articles/360058138552-Download-InRule-Software) ) before following the instructions below. 
 
 ##### Prerequistes
 - irAuthor 5.7.2 ( [Support Site Downloads](https://support.inrule.com/hc/en-us/articles/360058138552-Download-InRule-Software) )
