@@ -26,8 +26,8 @@ DMN Modeler does not currently install with some irAuthor trial installations.  
 ````
 CD "%UserProfile%\Documents\InstallationFiles v1.1 for irAuthor 5.7.2\InstallationFiles v1.1 for irAuthor 5.7.2\
 ````
-1. Type the following file name into the command window and press 'Return':  
+5. Type the following file name into the command window and press 'Return':  
 ````
 Install_AllUsers_LatestInRuleVersion.bat
 ````
-1. Open irAuthor and enable the DMN Modeler extension. Close irAuthor and re-open it. When you launch irAuthor, you should see the new item "DMN Models" on the vertical navigation pane on the left side of the screen, and also notice the new "DMN" group of menu options on the Home page ribbon. If for any reason it does not load correctly, you may see log information in the Event Log. Running the Uninstall.bat file found in the installation package will remove it if issues arise.
+6. Open irAuthor and enable the DMN Modeler extension. Close irAuthor and re-open it. When you launch irAuthor, you should see the new item "DMN Models" on the vertical navigation pane on the left side of the screen, and also notice the new "DMN" group of menu options on the Home page ribbon. If for any reason it does not load correctly, you may see log information in the Event Log. Running the Uninstall.bat file found in the installation package will remove it if issues arise.
