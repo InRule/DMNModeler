@@ -171,13 +171,13 @@ DMN Modeler 1.1 introduced shape properties accessed from the 'mini menu' using 
 
 ![Link](../images/Link.png)
 
-General Behavior
+#### General Behavior
 Links allow shapes to navigate to external content or internal components of a Rule Application.  Once established, a link icon is available from the 'mini menu'.  Links are removed by removing the text of the link.
 
-Create Decision/Entity
+#### Create Decision/Entity
 If a user does not find a specific Decision or Entity to link to, they can click on the 'Create Decision/Entity' link.  After providing a Name and a Description, clicking 'Save' will both create the component and link it to the shape in a single action.
 
-Colors
+#### Colors
 Default colors are set by DMN Modeler; however, users may set their own colors on individual shapes.  Colors do not export with models.
 
 
