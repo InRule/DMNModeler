@@ -11,7 +11,7 @@ If you have more than one installation of irAuthor (side-by-side install), note 
 [Install Video Instructions](https://player.vimeo.com/video/617285075?h=a6604f7220)
 
 
-1. Download the installation package from [here](/install/InstallationFiles%20v1.0.10%20for%20irAuthor%205.7.2.zip)
+1. Download the installation package from [here](/install/InstallationFiles%20v1.1%20for%20irAuthor%205.7.2.zip)
 1. Extract the archive into a folder on your PC where irAuthor is installed.
 1. Download and save in the extracted archive the WebView2 Runtime installer for 64bit OS from the online link https://downloads.inrule.com/latest/MicrosoftEdgeWebView2RuntimeInstallerX64.exe
 1. Ensure there are no instances of irAuthor currently open and that the firewall is temporarly turned off, until this installation completes.
