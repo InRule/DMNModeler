@@ -1,6 +1,6 @@
-````
-We are pleased to announce the availability of DMN Modeler 1.1.  This release includes many new features that improve usability and provide full participation in the rule application lifecycle when using irCatalog.  Read more about specific features and release notes [here](/install/readme.md).
-````
+
+| We are pleased to announce the availability of DMN Modeler 1.1.  This release includes many new features that improve usability and provide full participation in the rule application lifecycle when using irCatalog.  Read more about specific features and release notes [here](/install/readme.md). |
+
 
 # Introduction
 
