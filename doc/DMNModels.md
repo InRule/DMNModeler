@@ -140,7 +140,7 @@ _**Note:**  There is no constraint on the number of shapes or links you can use 
 
 DMN Modeler 1.1 introduced shape properties accessed from the 'mini menu' using the gear icon.  Properties include Name, Description, Link and colors (Text, Border, Fill).  Links are the most notable of the properties.
 
-#### Links
+#### Link
 
 ![Link](../images/Link2.png)
 
