@@ -16,7 +16,7 @@ DMN Modeler does not currently install with some irAuthor trial installations.  
 - DMN Modeler now supports rapid modeling with the introduction of a 'mini menu' bound to each shape on the canvas.  Use this menu to add new shapes with a single click, navigate links and edit properties.
 
 #### Installation Steps
-1. Download the installation package from [/install/InstallationFiles%20v1.1%20for%20irAuthor%205.7.2.zip](/install/InstallationFiles%20v1.1%20for%20irAuthor%205.7.2.zip)
+1. Download the installation package from [here](/install/InstallationFiles%20v1.1%20for%20irAuthor%205.7.2.zip). Click the 'Download' button.
 1. Extract the zip file into into a directory like "Documents".
 1. Open the command promt as Administrator.
 1. From the commandline, use the 'cd' command to navigate to the installation directory. Cut and paste the command below into the CMD window:
