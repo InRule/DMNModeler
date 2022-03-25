@@ -1,22 +1,22 @@
 # Installation
 
-##### Installation Notes for DMN Modeler 1.1 and irAuthor 5.7.2
+#### Installation Notes for DMN Modeler 1.1 and irAuthor 5.7.2
 
 DMN Modeler does not currently install with some irAuthor trial installations.  If you are in the middle of a trial, download irAuthor from the support site directly ( [Support Site Downloads](https://support.inrule.com/hc/en-us/articles/360058138552-Download-InRule-Software) ) before following the instructions below. 
 
-##### Prerequistes
+#### Prerequistes
 - irAuthor 5.7.2 ( [Support Site Downloads](https://support.inrule.com/hc/en-us/articles/360058138552-Download-InRule-Software) )
 - The install process will attempt to download and install the Microsoft Edge Web View2 runtime.  This engine allows DMN Modeler to run as a web application within irAuthor.  In some cases, workstations block this download and force the user download and install it manually. Download the installation package from [https://downloads.inrule.com/latest/MicrosoftEdgeWebView2RuntimeInstallerX64.exe](https://downloads.inrule.com/latest/MicrosoftEdgeWebView2RuntimeInstallerX64.exe). 
 - This installation requires you to have local administrative rights on your windows workstation for installation only.
 
-##### Release Notes
+#### Release Notes
 - Side-by-side installations of irAuthor are now supported. During the installation process, you will be prompted for the target directory of irAuthor 5.7.2.
 - DMN Modeler now supports check-in/out behavior like other components within irAuthor.
 - DMN Modeler supports linking of some shapes to assets like Decisions, Entities, Rulesets and Decision Tables.
 - DMN Modeler now supports rapid modeling with the introduction of a 'mini menu' bound to each shape on the canvas.  Use this menu to add new shapes with a single click, navigate links and edit properties.
 
-##### Installation Steps
-1. Download the installation package from [here](/install/InstallationFiles%20v1.1%20for%20irAuthor%205.7.2.zip)
+#### Installation Steps
+1. Download the installation package from [/install/InstallationFiles%20v1.1%20for%20irAuthor%205.7.2.zip](/install/InstallationFiles%20v1.1%20for%20irAuthor%205.7.2.zip)
 1. Extract the zip file into into a directory like "Documents".
 1. Open the command promt as Administrator.
 1. From the commandline, use the 'cd' command to navigate to the installation directory. Cut and paste the command below into the CMD window:
