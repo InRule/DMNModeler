@@ -135,6 +135,25 @@ Association | ![InRule DMN Association Link](../images/InRuleDMN_Link_Associatio
 
 _**Note:**  There is no constraint on the number of shapes or links you can use in a decision requirement diagram; you can design the DRD using the needed shapes and the most adequate position for each one of them, but take in consideration that a functional DRD should have all the shapes connected._
 
+
+# Shape Properties
+
+DMN Modeler 1.1 introduced shape properties accessed from the 'mini menu' using the gear icon.  Properties include Name, Description, Link and colors (Text, Border, Fill).  Links are the most notable of the properties.
+
+#### Links
+
+![Link](../images/Link2.png)
+
+#### General Behavior
+Links allow shapes to navigate to external content or internal components of a Rule Application.  Once established, a link icon is available from the 'mini menu'.  Links are removed by removing the text of the link.
+
+#### Create Decision/Entity
+If a user does not find a specific Decision or Entity to link to, they can click on the 'Create Decision/Entity' link.  After providing a Name and a Description, clicking 'Save' will both create the component and link it to the shape in a single action.
+
+#### Colors
+Default colors are set by DMN Modeler; however, users may set their own colors on individual shapes.  Colors do not export with models.
+
+
 # Step-by-step guide on how to design a decision model 
 
 There are some very good books on decision modeling from James Taylor and Jan Purchase that cover in-depth practice (see [Real World Decision Modeling with DMN](https://www.amazon.com/Real-World-Decision-Modeling-James-Taylor/dp/0929652592/ref=sr_1_3?dchild=1&keywords=James+Taylor+dmn&qid=1632853023&sr=8-3)). At the same time, we believe there are fundamental practices you can do on your own to get started with your first model.
@@ -163,22 +182,7 @@ As our guide above suggests, it's time to consider which decisions might be publ
 
 Many other details can be discovered by the team while modeling. For example, shipping is a common problem but complexities can emerge with different types of shipping, fees and offers. Perhaps some customers are willing to pay more for a speedy shipping and in other cases the business might inject an offer for preferred shipping. It's important to keep the team exploring, modeling, and discovering all of the aspects of each decision until it's unambiguous. This means that once complete, anyone on the team would know what to implement even though explicit logic is not yet defined.
 
-# Shape Properties
 
-DMN Modeler 1.1 introduced shape properties accessed from the 'mini menu' using the gear icon.  Properties include Name, Description, Link and colors (Text, Border, Fill).  Links are the most notable of the properties.
-
-#### Links
-
-![Link](../images/Link2.png)
-
-#### General Behavior
-Links allow shapes to navigate to external content or internal components of a Rule Application.  Once established, a link icon is available from the 'mini menu'.  Links are removed by removing the text of the link.
-
-#### Create Decision/Entity
-If a user does not find a specific Decision or Entity to link to, they can click on the 'Create Decision/Entity' link.  After providing a Name and a Description, clicking 'Save' will both create the component and link it to the shape in a single action.
-
-#### Colors
-Default colors are set by DMN Modeler; however, users may set their own colors on individual shapes.  Colors do not export with models.
 
 
 
