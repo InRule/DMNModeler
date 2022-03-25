@@ -28,5 +28,6 @@ CD %UserProfile%\Documents\InstallationFiles v1.1 for irAuthor 5.7.2\Installatio
 Install_AllUsers_LatestInRuleVersion.bat
 ````
 If side-by-side installations of irAuthor are detected, you will be prompted to type in the name of the installation to use.  Finally, in some cases, the installation process will ask to overwrite files.  Indicate 'All' if you are prompted.
+
 6. Open irAuthor and enable the DMN Modeler extension. Close irAuthor and re-open it. When you launch irAuthor, you should see the new item "DMN Models" on the vertical navigation pane on the left side of the screen, and also notice the new "DMN" group of menu options on the Home page ribbon. If for any reason it does not load correctly, you may see log information in the Event Log. Running the Uninstall.bat file found in the installation package will remove it if issues arise.
-7. In some cases, the installation process will ask to overwrite files.  Indicate 'All' if you are prompted. 
+1. In some cases, the installation process will ask to overwrite files.  Indicate 'All' if you are prompted. 
