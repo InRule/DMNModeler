@@ -1,5 +1,7 @@
 # Introduction
 
+We are pleased to announce the availability of DMN Modeler 1.1.  This release includes many new features that improve usability and provide full participation in the rule application lifecycle when using irCatalog.  Read more about specific features and release notes [here](/install/readme.md).
+
 ![InRule DMN Step By Step Guide Step 2](/images/shoppingcartmodel.png)
 
 Welcome to the DMN Modeler repository on GitHub.  This repository contains everything you need to model decisions using Decision Model and Notation (DMN) 1.3 (as established by OMG) in conjuction with irAuthor® from InRule Technology®.
