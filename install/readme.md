@@ -1,4 +1,4 @@
-# Installation
+### Installation
 
 Installation Notes for DMN Modeler 1.1 and irAuthor 5.7.2
 
@@ -14,9 +14,6 @@ DMN Modeler does not currently install with some irAuthor trial installations.  
 - DMN Modeler now supports check-in/out behavior like other components within irAuthor.
 - DMN Modeler supports linking of some shapes to assets like Decisions, Entities, Rulesets and Decision Tables.
 - DMN Modeler now supports rapid modeling with the introduction of a 'mini menu' bound to each shape on the canvas.  Use this menu to add new shapes with a single click, navigate links and edit properties.
-
-
-[Install Video Instructions](https://player.vimeo.com/video/617285075?h=a6604f7220)
 
 
 1. Download the installation package from [here](/install/InstallationFiles%20v1.1%20for%20irAuthor%205.7.2.zip)
