@@ -1,4 +1,4 @@
-Installation
+# Installation
 
 ##### Installation Notes for DMN Modeler 1.1 and irAuthor 5.7.2
 
