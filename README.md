@@ -1,6 +1,6 @@
 # Introduction
 
-![InRule DMN Step By Step Guide Step 2](/images/shoppingcartmodel.PNG)
+![InRule DMN Step By Step Guide Step 2](/images/shoppingcartmodel.png)
 
 Welcome to the DMN Modeler repository on GitHub.  This repository contains everything you need to model decisions using Decision Model and Notation (DMN) 1.3 (as established by OMG) in conjuction with irAuthor® from InRule Technology®.
 
