@@ -10,7 +10,7 @@ DMN Modeler does not currently install with some irAuthor trial installations.  
 - This installation requires you to have local administrative rights on your windows workstation for installation only.
 
 #### Release Notes
-- Side-by-side installations of irAuthor are now supported. During the installation process, you will be prompted for the target directory of irAuthor 5.7.2.
+- Side-by-side installations of irAuthor are now supported. During the installation process, you will be prompted for the target directory of irAuthor 5.7.3.
 - DMN Modeler now supports check-in/out behavior like other components within irAuthor.
 - DMN Modeler supports linking of some shapes to assets like Decisions, Entities, Rulesets and Decision Tables.
 - DMN Modeler now supports rapid modeling with the introduction of a 'mini menu' bound to each shape on the canvas.  Use this menu to add new shapes with a single click, navigate links and edit properties.
