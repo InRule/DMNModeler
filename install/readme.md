@@ -1,6 +1,6 @@
 # Installation
 
-#### Installation Notes for DMN Modeler 1.1.2 and irAuthor 5.7.3
+#### Installation Notes for DMN Modeler 1.1.3 and irAuthor 5.7.3
 
 DMN Modeler does not currently install with some irAuthor trial installations.  If you are in the middle of a trial, download irAuthor from the support site directly ( [Support Site Downloads](https://support.inrule.com/hc/en-us/articles/360058138552-Download-InRule-Software) ) before following the instructions below. 
 
@@ -21,7 +21,7 @@ DMN Modeler does not currently install with some irAuthor trial installations.  
 1. Open a command window as Administrator.  Type 'cmd' in the Start bar at the bottom of your windows desktop.  Right click on the menu for 'Command Prompt' and select 'Run as administrator'.
 1. From the commandline, use the 'cd' command to navigate to the installation directory. Cut and paste the command below into the CMD window:
 ````
-CD %UserProfile%\Documents\InstallationFiles v1.1.2 for irAuthor 5.7.3\InstallationFiles v1.1.2 for irAuthor 5.7.3\
+CD %UserProfile%\Documents\InstallationFiles v1.1.3 for irAuthor 5.7.3\InstallationFiles v1.1.2 for irAuthor 5.7.3\
 ````
 5. Type the following file name into the command window and press 'Return':  
 ````
