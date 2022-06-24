@@ -21,7 +21,7 @@ DMN Modeler does not currently install with some irAuthor trial installations.  
 1. Open a command window as Administrator.  Type 'cmd' in the Start bar at the bottom of your windows desktop.  Right click on the menu for 'Command Prompt' and select 'Run as administrator'.
 1. From the commandline, use the 'cd' command to navigate to the installation directory. Cut and paste the command below into the CMD window:
 ````
-CD %UserProfile%\Documents\InstallationFiles v1.1.3 for irAuthor 5.7.3\InstallationFiles v1.1.2 for irAuthor 5.7.3\
+CD %UserProfile%\Documents\InstallationFiles v1.1.3 for irAuthor 5.7.3\InstallationFiles v1.1.3 for irAuthor 5.7.3\
 ````
 5. Type the following file name into the command window and press 'Return':  
 ````
