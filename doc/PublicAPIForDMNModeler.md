@@ -10,7 +10,7 @@ The rule application used in an import or export operation might be:
 - A rule application from irCatalog®
 
 Prerequisites:
--  irSDK® (5.7.2)
+-  irSDK® (5.7.3)
 -  if a reference to a rule application from irCatalog is used, the version of irCatalog should be the same as irAuthor®
 -  Assembly InRuleLabs.Authoring.Extensions.DMNAPI.dll
 
