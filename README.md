@@ -29,7 +29,7 @@ DMN Modeler is released as a managed extension.  This means that it is fully sup
 DMN requires a valid irAuthor license to run.
 
 ### System Requirements
-* irAuthor version 5.7.2 or newer
+* irAuthor version 5.7.3 or newer
 * irAuthor System Requirements
 * Microsoft WebView2 Runtime Fixed Version, version 91.0.864.64 will be installed as part of the intallation process of this extension, as silent install.  
 
