@@ -4,7 +4,7 @@
 
 DMN Modeler does not currently install with some irAuthor trial installations.  If you are in the middle of a trial, download irAuthor from the support site directly ( [Support Site Downloads](https://support.inrule.com/hc/en-us/articles/360058138552-Download-InRule-Software) ) before following the instructions below. 
 
-#### Prerequistes
+#### Prerequisites
 - irAuthor 5.7.3 ( [Support Site Downloads](https://support.inrule.com/hc/en-us/articles/360058138552-Download-InRule-Software) )
 - The install process will attempt to download and install the Microsoft Edge Web View2 runtime.  This engine allows DMN Modeler to run as a web application within irAuthor.  In some cases, workstations block this download and force the user download and install it manually. Download the installation package from [https://downloads.inrule.com/latest/MicrosoftEdgeWebView2RuntimeInstallerX64.exe](https://downloads.inrule.com/latest/MicrosoftEdgeWebView2RuntimeInstallerX64.exe). 
 - This installation requires you to have local administrative rights on your windows workstation for installation only.
